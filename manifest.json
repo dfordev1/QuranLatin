@@ -1,0 +1,117 @@
+{
+  "created_utc": "2026-06-30T08:30:31.775136+00:00",
+  "package": "quranlatin_bengali_v1",
+  "description": "Latin-only transliterations of Bengali Quran translation datasets.",
+  "language": "Bengali",
+  "scripts": [
+    "latin_iast",
+    "latin_ascii"
+  ],
+  "verse_translation_sources": {
+    "rawai_al_bayan": {
+      "file": "bn-rawai-al-bayan-simple.json",
+      "title": "Rawai Al Bayan Bengali translation"
+    },
+    "sheikh_mujibur_rahman": {
+      "file": "bn-sheikh-mujibur-rahman-simple.json",
+      "title": "Sheikh Mujibur Rahman Bengali translation"
+    },
+    "taisirul_quran": {
+      "file": "bn-taisirul-quran-simple.json",
+      "title": "Taisirul Quran Bengali translation"
+    },
+    "dr_abu_bakr_muhammad_zakaria": {
+      "file": "dr-abu-bakr-muhammad-zakaria-simple.json",
+      "title": "Dr. Abu Bakr Muhammad Zakaria Bengali translation"
+    },
+    "fathul_majid": {
+      "file": "fathul-majid-bn-simple.json",
+      "title": "Fathul Majid Bengali translation"
+    }
+  },
+  "verse_count_per_source": {
+    "rawai_al_bayan": 6236,
+    "sheikh_mujibur_rahman": 6236,
+    "taisirul_quran": 6236,
+    "dr_abu_bakr_muhammad_zakaria": 6236,
+    "fathul_majid": 6236
+  },
+  "combined_translation_rows": 31180,
+  "word_by_word_entries": 83664,
+  "notes": [
+    "This repository contains Latin transliterations of Bengali translation text, not Arabic recitation transliteration.",
+    "Bengali originals and Arabic/Persian/Urdu script renderings are intentionally excluded from these data files."
+  ],
+  "files": [
+    {
+      "path": "data/bengali/combined/bengali_translations_latin_v1.csv",
+      "size_bytes": 12714645,
+      "sha256": "be166bd37728abadfcb7bf19be7fa163f942ccf634c149f6e2cbc24354f62eb4"
+    },
+    {
+      "path": "data/bengali/combined/bengali_translations_latin_v1.json",
+      "size_bytes": 14005168,
+      "sha256": "d63a4c8dbe96a1f049c24c778dbe32dd497644578829b3a58bb6341107fa04c5"
+    },
+    {
+      "path": "data/bengali/sources/dr_abu_bakr_muhammad_zakaria_latin_v1.csv",
+      "size_bytes": 2150298,
+      "sha256": "6b26dc33c4d5761bdc3a104b91dda9fbfd06306036098f0ecf3df012e0226e83"
+    },
+    {
+      "path": "data/bengali/sources/dr_abu_bakr_muhammad_zakaria_latin_v1.json",
+      "size_bytes": 2705894,
+      "sha256": "b4a39b082deca32cc3616d9a17a1c44624fba3c1ce8f7c74e76e1a40718291f0"
+    },
+    {
+      "path": "data/bengali/sources/fathul_majid_latin_v1.csv",
+      "size_bytes": 2151544,
+      "sha256": "eba030ddabe1dbdd6eecf021e86d56dbbcfa38f7a7cc854d0b0ac9f40d5e7dec"
+    },
+    {
+      "path": "data/bengali/sources/fathul_majid_latin_v1.json",
+      "size_bytes": 2709716,
+      "sha256": "3d14e914c7cd386664ee7cebd68392ff8949a74a1baddca34da72c2afabb4b3c"
+    },
+    {
+      "path": "data/bengali/sources/rawai_al_bayan_latin_v1.csv",
+      "size_bytes": 2199059,
+      "sha256": "7d4a81c6fb195ddac3d48ad56c569e355ba13a52a3c115f0d0697b73cf217104"
+    },
+    {
+      "path": "data/bengali/sources/rawai_al_bayan_latin_v1.json",
+      "size_bytes": 2754607,
+      "sha256": "274fcd1606eb973bd494fcecca4725943a48fa4be5bddd60519dbe2a4d133f7b"
+    },
+    {
+      "path": "data/bengali/sources/sheikh_mujibur_rahman_latin_v1.csv",
+      "size_bytes": 2158353,
+      "sha256": "e3fe21f63fb24526a01084cad8f4e9ef7bee3f04246d025d15b0f625454bd7c4"
+    },
+    {
+      "path": "data/bengali/sources/sheikh_mujibur_rahman_latin_v1.json",
+      "size_bytes": 2716925,
+      "sha256": "293cd22441f644855c89fd1c27c471953f1a92da7645ed06f199b81e3caab173"
+    },
+    {
+      "path": "data/bengali/sources/taisirul_quran_latin_v1.csv",
+      "size_bytes": 2253314,
+      "sha256": "083a5335de6caf2861b7c90801f81e226b9607fb3e7d4146a5152f0e2b1ca8ba"
+    },
+    {
+      "path": "data/bengali/sources/taisirul_quran_latin_v1.json",
+      "size_bytes": 2808518,
+      "sha256": "32c4fd2a5e6a1722ed9934c9e75a0c76dceecbe4748496bad10ed06a0d798e81"
+    },
+    {
+      "path": "data/bengali/word_by_word/bengali_word_by_word_latin_v1.csv",
+      "size_bytes": 3802947,
+      "sha256": "26dcdc3489969c0cb807fb1eadfd2ba48043e63ea12a5e2976ccced4acf1c412"
+    },
+    {
+      "path": "data/bengali/word_by_word/bengali_word_by_word_latin_v1.json",
+      "size_bytes": 12157197,
+      "sha256": "021bc7f6707056b2b299a119f10dd9591998fc0b851f1ef6edf534747a352392"
+    }
+  ]
+}
