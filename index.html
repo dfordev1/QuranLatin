@@ -320,7 +320,7 @@
               id="filter"
               class="search"
               type="search"
-              placeholder="Filter by file, wave, script, or path..."
+              placeholder="Filter by language, file, wave, script, or path..."
               autocomplete="off"
             />
             <div class="pill" id="filter-summary">Showing all files</div>
@@ -329,11 +329,11 @@
             <table>
               <thead>
                 <tr>
-                  <th>File</th>
+                  <th>Language / Pack</th>
                   <th>Wave</th>
                   <th>Script</th>
                   <th>Rows</th>
-                  <th>Path</th>
+                  <th>File</th>
                   <th>JSON</th>
                 </tr>
               </thead>
@@ -422,10 +422,22 @@
           .replaceAll(">", "&gt;")
           .replaceAll('"', "&quot;");
 
+      const languageLabel = (item) => {
+        const source = item.source || {};
+        if (source.kind === "qul") {
+          return source.language || source.title || item.file;
+        }
+        if (source.kind === "quranenc") {
+          return source.language_name || source.title || source.key || item.file;
+        }
+        return source.language_name || source.language_code || source.title || source.key || item.file;
+      };
+
       const renderBundle = () => {
         const q = document.getElementById("filter").value.trim().toLowerCase();
         const rows = state.bundle.filter((item) => {
           const hay = [
+            item.label,
             item.file,
             item.path,
             String(item.wave),
@@ -447,7 +459,10 @@
             const rel = item.path;
             return `
               <tr>
-                <td><strong>${esc(item.file)}</strong></td>
+                <td>
+                  <strong>${esc(item.label)}</strong>
+                  <div class="meta">${esc(item.file)}</div>
+                </td>
                 <td>Wave ${esc(item.wave)}</td>
                 <td>${esc(item.script)}</td>
                 <td>${esc(item.row_count)}</td>
@@ -514,7 +529,10 @@
 
         state.bundleMeta = translit;
         state.bengaliMeta = bengali;
-        state.bundle = translit.files || [];
+        state.bundle = (translit.files || []).map((item) => ({
+          ...item,
+          label: languageLabel(item),
+        }));
         state.bengali = bengali.files || [];
 
         document.querySelector('[data-stat="files"]').textContent = String(state.bundle.length);
