@@ -1,0 +1,1847 @@
+{
+  "repository": "dfordev1/QuranLatin",
+  "generated_at": "2026-07-01T03:50:07+00:00",
+  "total_files": 89,
+  "wave_counts": {
+    "1": 62,
+    "2": 21,
+    "3": 6
+  },
+  "script_counts": {
+    "bengali": 9,
+    "cyrillic": 21,
+    "devanagari": 8,
+    "ethiopic": 2,
+    "georgian": 2,
+    "greek": 2,
+    "gujarati": 1,
+    "gurmukhi": 1,
+    "hangul": 1,
+    "hebrew": 1,
+    "kannada": 2,
+    "malayalam": 2,
+    "sinhala": 2,
+    "tamil": 4,
+    "telugu": 2,
+    "thai": 2,
+    "arabic": 21,
+    "han": 1,
+    "hiragana": 2,
+    "khmer": 1,
+    "thaana": 2
+  },
+  "excluded_files": [
+    {
+      "file": "circassian_rwwad.json",
+      "wave": null,
+      "script": "cyrillic",
+      "reason": "failed review"
+    },
+    {
+      "file": "nqo_Karamomamadi.json",
+      "wave": null,
+      "script": "nko",
+      "reason": "failed review"
+    },
+    {
+      "file": "bambara-1ad85b2f2de8c6f1e75b838826fcfb5d.json",
+      "wave": null,
+      "script": "nko",
+      "reason": "failed review"
+    },
+    {
+      "file": "ingush-a6b99ddb378bf1b7540473d1d0d87b08.json",
+      "wave": null,
+      "script": "empty",
+      "reason": "failed review"
+    }
+  ],
+  "files": [
+    {
+      "file": "as_rafeeq.json",
+      "path": "data/transliterations/wave-1/as_rafeeq.json",
+      "wave": 1,
+      "script": "bengali",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "as_rafeeq.db",
+        "key": "as_rafeeq",
+        "language_code": "as",
+        "language_name": "as_rafeeq"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "bengali",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "bn_bayaan.json",
+      "path": "data/transliterations/wave-1/bn_bayaan.json",
+      "wave": 1,
+      "script": "bengali",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "bn_bayaan.db",
+        "key": "bn_bayaan",
+        "language_code": "bn",
+        "language_name": "bn_bayaan"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "bengali",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "bn_fozlur.json",
+      "path": "data/transliterations/wave-1/bn_fozlur.json",
+      "wave": 1,
+      "script": "bengali",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "bn_fozlur.db",
+        "key": "bn_fozlur",
+        "language_code": "bn",
+        "language_name": "bn_fozlur"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "bengali",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "bn_ifaba.json",
+      "path": "data/transliterations/wave-1/bn_ifaba.json",
+      "wave": 1,
+      "script": "bengali",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "bn_ifaba.db",
+        "key": "bn_ifaba",
+        "language_code": "bn",
+        "language_name": "bn_ifaba"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "bengali",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "bn_mkhan.json",
+      "path": "data/transliterations/wave-1/bn_mkhan.json",
+      "wave": 1,
+      "script": "bengali",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "bn_mkhan.db",
+        "key": "bn_mkhan",
+        "language_code": "bn",
+        "language_name": "bn_mkhan"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "bengali",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "bn_mujibur.json",
+      "path": "data/transliterations/wave-1/bn_mujibur.json",
+      "wave": 1,
+      "script": "bengali",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "bn_mujibur.db",
+        "key": "bn_mujibur",
+        "language_code": "bn",
+        "language_name": "bn_mujibur"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "bengali",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "bn_sean.json",
+      "path": "data/transliterations/wave-1/bn_sean.json",
+      "wave": 1,
+      "script": "bengali",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "bn_sean.db",
+        "key": "bn_sean",
+        "language_code": "bn",
+        "language_name": "bn_sean"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "bengali",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "bn_taisirul.json",
+      "path": "data/transliterations/wave-1/bn_taisirul.json",
+      "wave": 1,
+      "script": "bengali",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "bn_taisirul.db",
+        "key": "bn_taisirul",
+        "language_code": "bn",
+        "language_name": "bn_taisirul"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "bengali",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "bn_taqi.json",
+      "path": "data/transliterations/wave-1/bn_taqi.json",
+      "wave": 1,
+      "script": "bengali",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "bn_taqi.db",
+        "key": "bn_taqi",
+        "language_code": "bn",
+        "language_name": "bn_taqi"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "bengali",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "belarusian_krivtsov.json",
+      "path": "data/transliterations/wave-1/belarusian_krivtsov.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "quranenc",
+        "title": "Belarusian - Беларуская",
+        "key": "belarusian_krivtsov",
+        "language_code": "be",
+        "language_name": "Belarusian",
+        "mode": "api"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "bg_translation.json",
+      "path": "data/transliterations/wave-1/bg_translation.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "bg_translation.db",
+        "key": "bg_translation",
+        "language_code": "bg",
+        "language_name": "bg_translation"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "chechen-ddf46a41f63504bc24c0eae68714d53f.json",
+      "path": "data/transliterations/wave-1/chechen-ddf46a41f63504bc24c0eae68714d53f.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6030,
+      "source": {
+        "kind": "qul",
+        "language": "Chechen",
+        "title": "Magomed Magomedov",
+        "resource_id": "ddf46a41f63504bc24c0eae68714d53f"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "kk_altai.json",
+      "path": "data/transliterations/wave-1/kk_altai.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "kk_altai.db",
+        "key": "kk_altai",
+        "language_code": "kk",
+        "language_name": "kk_altai"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "kk_altai_assoc.json",
+      "path": "data/transliterations/wave-1/kk_altai_assoc.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "kk_altai_assoc.db",
+        "key": "kk_altai_assoc",
+        "language_code": "kk",
+        "language_name": "kk_altai_assoc"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ky_abdalkhaleq.json",
+      "path": "data/transliterations/wave-1/ky_abdalkhaleq.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ky_abdalkhaleq.db",
+        "key": "ky_abdalkhaleq",
+        "language_code": "ky",
+        "language_name": "ky_abdalkhaleq"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ky_mokhtasar.json",
+      "path": "data/transliterations/wave-1/ky_mokhtasar.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ky_mokhtasar.db",
+        "key": "ky_mokhtasar",
+        "language_code": "ky",
+        "language_name": "ky_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "mk_Macedonianscholars.json",
+      "path": "data/transliterations/wave-1/mk_Macedonianscholars.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "mk_Macedonianscholars.db",
+        "key": "mk_Macedonianscholars",
+        "language_code": "mk",
+        "language_name": "mk_Macedonianscholars"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ru_abuadel.json",
+      "path": "data/transliterations/wave-1/ru_abuadel.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ru_abuadel.db",
+        "key": "ru_abuadel",
+        "language_code": "ru",
+        "language_name": "ru_abuadel"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ru_kuliev.json",
+      "path": "data/transliterations/wave-1/ru_kuliev.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ru_kuliev.db",
+        "key": "ru_kuliev",
+        "language_code": "ru",
+        "language_name": "ru_kuliev"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ru_mokhtasar.json",
+      "path": "data/transliterations/wave-1/ru_mokhtasar.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ru_mokhtasar.db",
+        "key": "ru_mokhtasar",
+        "language_code": "ru",
+        "language_name": "ru_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "sr_mokhtasar.json",
+      "path": "data/transliterations/wave-1/sr_mokhtasar.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "sr_mokhtasar.db",
+        "key": "sr_mokhtasar",
+        "language_code": "sr",
+        "language_name": "sr_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "sr_rowwad.json",
+      "path": "data/transliterations/wave-1/sr_rowwad.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "sr_rowwad.db",
+        "key": "sr_rowwad",
+        "language_code": "sr",
+        "language_name": "sr_rowwad"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "tg_arifi.json",
+      "path": "data/transliterations/wave-1/tg_arifi.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "tg_arifi.db",
+        "key": "tg_arifi",
+        "language_code": "tg",
+        "language_name": "tg_arifi"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "tg_mokhtasar.json",
+      "path": "data/transliterations/wave-1/tg_mokhtasar.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "tg_mokhtasar.db",
+        "key": "tg_mokhtasar",
+        "language_code": "tg",
+        "language_name": "tg_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "tt_yakub.json",
+      "path": "data/transliterations/wave-1/tt_yakub.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "tt_yakub.db",
+        "key": "tt_yakub",
+        "language_code": "tt",
+        "language_name": "tt_yakub"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "uk_mikhailo.json",
+      "path": "data/transliterations/wave-1/uk_mikhailo.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "uk_mikhailo.db",
+        "key": "uk_mikhailo",
+        "language_code": "uk",
+        "language_name": "uk_mikhailo"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "uz_mansour.json",
+      "path": "data/transliterations/wave-1/uz_mansour.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "uz_mansour.db",
+        "key": "uz_mansour",
+        "language_code": "uz",
+        "language_name": "uz_mansour"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "uz_mokhtasar.json",
+      "path": "data/transliterations/wave-1/uz_mokhtasar.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "uz_mokhtasar.db",
+        "key": "uz_mokhtasar",
+        "language_code": "uz",
+        "language_name": "uz_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "uz_rwwad.json",
+      "path": "data/transliterations/wave-1/uz_rwwad.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "uz_rwwad.db",
+        "key": "uz_rwwad",
+        "language_code": "uz",
+        "language_name": "uz_rwwad"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "uz_yusuf.json",
+      "path": "data/transliterations/wave-1/uz_yusuf.json",
+      "wave": 1,
+      "script": "cyrillic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "uz_yusuf.db",
+        "key": "uz_yusuf",
+        "language_code": "uz",
+        "language_name": "uz_yusuf"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "cyrillic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "hi_farooq.json",
+      "path": "data/transliterations/wave-1/hi_farooq.json",
+      "wave": 1,
+      "script": "devanagari",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "hi_farooq.db",
+        "key": "hi_farooq",
+        "language_code": "hi",
+        "language_name": "hi_farooq"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "devanagari",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "hi_mokhtasar.json",
+      "path": "data/transliterations/wave-1/hi_mokhtasar.json",
+      "wave": 1,
+      "script": "devanagari",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "hi_mokhtasar.db",
+        "key": "hi_mokhtasar",
+        "language_code": "hi",
+        "language_name": "hi_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "devanagari",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "hi_nadwi.json",
+      "path": "data/transliterations/wave-1/hi_nadwi.json",
+      "wave": 1,
+      "script": "devanagari",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "hi_nadwi.db",
+        "key": "hi_nadwi",
+        "language_code": "hi",
+        "language_name": "hi_nadwi"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "devanagari",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "hi_omari.json",
+      "path": "data/transliterations/wave-1/hi_omari.json",
+      "wave": 1,
+      "script": "devanagari",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "hi_omari.db",
+        "key": "hi_omari",
+        "language_code": "hi",
+        "language_name": "hi_omari"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "devanagari",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
+      "path": "data/transliterations/wave-1/marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
+      "wave": 1,
+      "script": "devanagari",
+      "row_count": 6236,
+      "source": {
+        "kind": "qul",
+        "language": "Marathi",
+        "title": "Muhammad Shafi’i Ansari",
+        "resource_id": "aeba9c5df8546756ec3c7599c285b1b9"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "devanagari",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "marathi_ansari.json",
+      "path": "data/transliterations/wave-1/marathi_ansari.json",
+      "wave": 1,
+      "script": "devanagari",
+      "row_count": 6236,
+      "source": {
+        "kind": "quranenc",
+        "title": "Marathi - मराठी",
+        "key": "marathi_ansari",
+        "language_code": "mr",
+        "language_name": "Marathi",
+        "mode": "api"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "devanagari",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "ne_islamicsangh.json",
+      "path": "data/transliterations/wave-1/ne_islamicsangh.json",
+      "wave": 1,
+      "script": "devanagari",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ne_islamicsangh.db",
+        "key": "ne_islamicsangh",
+        "language_code": "ne",
+        "language_name": "ne_islamicsangh"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "devanagari",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "ne_mokhtasar.json",
+      "path": "data/transliterations/wave-1/ne_mokhtasar.json",
+      "wave": 1,
+      "script": "devanagari",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ne_mokhtasar.db",
+        "key": "ne_mokhtasar",
+        "language_code": "ne",
+        "language_name": "ne_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "devanagari",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "am_mokhtasar.json",
+      "path": "data/transliterations/wave-1/am_mokhtasar.json",
+      "wave": 1,
+      "script": "ethiopic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "am_mokhtasar.db",
+        "key": "am_mokhtasar",
+        "language_code": "am",
+        "language_name": "am_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "ethiopic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "am_sadiq.json",
+      "path": "data/transliterations/wave-1/am_sadiq.json",
+      "wave": 1,
+      "script": "ethiopic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "am_sadiq.db",
+        "key": "am_sadiq",
+        "language_code": "am",
+        "language_name": "am_sadiq"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "ethiopic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
+      "path": "data/transliterations/wave-1/georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
+      "wave": 1,
+      "script": "georgian",
+      "row_count": 899,
+      "source": {
+        "kind": "qul",
+        "language": "Georgian",
+        "title": "Georgian Translation",
+        "resource_id": "472bf122b5fc3e180ed13bfc2b381a72"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "georgian",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "georgian_rwwad.json",
+      "path": "data/transliterations/wave-1/georgian_rwwad.json",
+      "wave": 1,
+      "script": "georgian",
+      "row_count": 6236,
+      "source": {
+        "kind": "quranenc",
+        "title": "Georgian - ქართული",
+        "key": "georgian_rwwad",
+        "language_code": "ka",
+        "language_name": "Georgian",
+        "mode": "api"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "georgian",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "greek-3a6985a5c88226187d5a4a770da7469c.json",
+      "path": "data/transliterations/wave-1/greek-3a6985a5c88226187d5a4a770da7469c.json",
+      "wave": 1,
+      "script": "greek",
+      "row_count": 6236,
+      "source": {
+        "kind": "qul",
+        "language": "Greek",
+        "title": "Greek translation",
+        "resource_id": "3a6985a5c88226187d5a4a770da7469c"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "greek",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "greek_rwwad.json",
+      "path": "data/transliterations/wave-1/greek_rwwad.json",
+      "wave": 1,
+      "script": "greek",
+      "row_count": 6236,
+      "source": {
+        "kind": "quranenc",
+        "title": "Greek - Ελληνικά",
+        "key": "greek_rwwad",
+        "language_code": "el",
+        "language_name": "Greek",
+        "mode": "api"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "greek",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "gu_omari.json",
+      "path": "data/transliterations/wave-1/gu_omari.json",
+      "wave": 1,
+      "script": "gujarati",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "gu_omari.db",
+        "key": "gu_omari",
+        "language_code": "gu",
+        "language_name": "gu_omari"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "gujarati",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "punjabi_arif.json",
+      "path": "data/transliterations/wave-1/punjabi_arif.json",
+      "wave": 1,
+      "script": "gurmukhi",
+      "row_count": 6236,
+      "source": {
+        "kind": "quranenc",
+        "title": "Punjabi - ਪੰਜਾਬੀ",
+        "key": "punjabi_arif",
+        "language_code": "pa",
+        "language_name": "Punjabi",
+        "mode": ""
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "gurmukhi",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "ko_korean.json",
+      "path": "data/transliterations/wave-1/ko_korean.json",
+      "wave": 1,
+      "script": "hangul",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ko_korean.db",
+        "key": "ko_korean",
+        "language_code": "ko",
+        "language_name": "ko_korean"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "hangul",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "he_darussalam.json",
+      "path": "data/transliterations/wave-1/he_darussalam.json",
+      "wave": 1,
+      "script": "hebrew",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "he_darussalam.db",
+        "key": "he_darussalam",
+        "language_code": "he",
+        "language_name": "he_darussalam"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "hebrew",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
+      "path": "data/transliterations/wave-1/kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
+      "wave": 1,
+      "script": "kannada",
+      "row_count": 6236,
+      "source": {
+        "kind": "qul",
+        "language": "Kannada",
+        "title": "Kannada Translation",
+        "resource_id": "9f4798e061a3e97f6b3f59bbe28862e5"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "kannada",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "kannada_hamza.json",
+      "path": "data/transliterations/wave-1/kannada_hamza.json",
+      "wave": 1,
+      "script": "kannada",
+      "row_count": 6236,
+      "source": {
+        "kind": "quranenc",
+        "title": "Kannada - ಕನ್ನಡ",
+        "key": "kannada_hamza",
+        "language_code": "kn",
+        "language_name": "Kannada",
+        "mode": ""
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "kannada",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "ml_abdulhameed.json",
+      "path": "data/transliterations/wave-1/ml_abdulhameed.json",
+      "wave": 1,
+      "script": "malayalam",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ml_abdulhameed.db",
+        "key": "ml_abdulhameed",
+        "language_code": "ml",
+        "language_name": "ml_abdulhameed"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "malayalam",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "ml_karakunnu.json",
+      "path": "data/transliterations/wave-1/ml_karakunnu.json",
+      "wave": 1,
+      "script": "malayalam",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ml_karakunnu.db",
+        "key": "ml_karakunnu",
+        "language_code": "ml",
+        "language_name": "ml_karakunnu"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "malayalam",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "si_mahir.json",
+      "path": "data/transliterations/wave-1/si_mahir.json",
+      "wave": 1,
+      "script": "sinhala",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "si_mahir.db",
+        "key": "si_mahir",
+        "language_code": "si",
+        "language_name": "si_mahir"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "sinhala",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "si_mokhtasar.json",
+      "path": "data/transliterations/wave-1/si_mokhtasar.json",
+      "wave": 1,
+      "script": "sinhala",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "si_mokhtasar.db",
+        "key": "si_mokhtasar",
+        "language_code": "si",
+        "language_name": "si_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "sinhala",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ta_baqavi.json",
+      "path": "data/transliterations/wave-1/ta_baqavi.json",
+      "wave": 1,
+      "script": "tamil",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ta_baqavi.db",
+        "key": "ta_baqavi",
+        "language_code": "ta",
+        "language_name": "ta_baqavi"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "tamil",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "ta_jantrust.json",
+      "path": "data/transliterations/wave-1/ta_jantrust.json",
+      "wave": 1,
+      "script": "tamil",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ta_jantrust.db",
+        "key": "ta_jantrust",
+        "language_code": "ta",
+        "language_name": "ta_jantrust"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "tamil",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "ta_mokhtasar.json",
+      "path": "data/transliterations/wave-1/ta_mokhtasar.json",
+      "wave": 1,
+      "script": "tamil",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ta_mokhtasar.db",
+        "key": "ta_mokhtasar",
+        "language_code": "ta",
+        "language_name": "ta_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "tamil",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "ta_omar_sheriff.json",
+      "path": "data/transliterations/wave-1/ta_omar_sheriff.json",
+      "wave": 1,
+      "script": "tamil",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ta_omar_sheriff.db",
+        "key": "ta_omar_sheriff",
+        "language_code": "ta",
+        "language_name": "ta_omar_sheriff"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "tamil",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "te_bayan.json",
+      "path": "data/transliterations/wave-1/te_bayan.json",
+      "wave": 1,
+      "script": "telugu",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "te_bayan.db",
+        "key": "te_bayan",
+        "language_code": "te",
+        "language_name": "te_bayan"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "telugu",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "te_divya.json",
+      "path": "data/transliterations/wave-1/te_divya.json",
+      "wave": 1,
+      "script": "telugu",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "te_divya.db",
+        "key": "te_divya",
+        "language_code": "te",
+        "language_name": "te_divya"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "telugu",
+        "target_script": "latin",
+        "method": "indic_transliteration"
+      }
+    },
+    {
+      "file": "th_fahad.json",
+      "path": "data/transliterations/wave-1/th_fahad.json",
+      "wave": 1,
+      "script": "thai",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "th_fahad.db",
+        "key": "th_fahad",
+        "language_code": "th",
+        "language_name": "th_fahad"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "thai",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "th_mokhtasar.json",
+      "path": "data/transliterations/wave-1/th_mokhtasar.json",
+      "wave": 1,
+      "script": "thai",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "th_mokhtasar.db",
+        "key": "th_mokhtasar",
+        "language_code": "th",
+        "language_name": "th_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 1,
+        "script": "thai",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ar_mokhtasar.json",
+      "path": "data/transliterations/wave-2/ar_mokhtasar.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ar_mokhtasar.db",
+        "key": "ar_mokhtasar",
+        "language_code": "ar",
+        "language_name": "ar_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "dari_anwar.json",
+      "path": "data/transliterations/wave-2/dari_anwar.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "dari_anwar.db",
+        "key": "dari_anwar",
+        "language_code": "dari",
+        "language_name": "dari_anwar"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "fa_husseintaji.json",
+      "path": "data/transliterations/wave-2/fa_husseintaji.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "fa_husseintaji.db",
+        "key": "fa_husseintaji",
+        "language_code": "fa",
+        "language_name": "fa_husseintaji"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "fa_islamhouse.json",
+      "path": "data/transliterations/wave-2/fa_islamhouse.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "fa_islamhouse.db",
+        "key": "fa_islamhouse",
+        "language_code": "fa",
+        "language_name": "fa_islamhouse"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "fa_mokhtasar.json",
+      "path": "data/transliterations/wave-2/fa_mokhtasar.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "fa_mokhtasar.db",
+        "key": "fa_mokhtasar",
+        "language_code": "fa",
+        "language_name": "fa_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
+      "path": "data/transliterations/wave-2/kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "qul",
+        "language": "Kashmiri",
+        "title": "Bayanul Furqan(Koshur Quran)",
+        "resource_id": "b31848d4d3fa0adef058fe11acf072ed"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ku_asan.json",
+      "path": "data/transliterations/wave-2/ku_asan.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ku_asan.db",
+        "key": "ku_asan",
+        "language_code": "ku",
+        "language_name": "ku_asan"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ku_bamoki.json",
+      "path": "data/transliterations/wave-2/ku_bamoki.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ku_bamoki.db",
+        "key": "ku_bamoki",
+        "language_code": "ku",
+        "language_name": "ku_bamoki"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ku_mokhtasar.json",
+      "path": "data/transliterations/wave-2/ku_mokhtasar.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ku_mokhtasar.db",
+        "key": "ku_mokhtasar",
+        "language_code": "ku",
+        "language_name": "ku_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "kurmanji_ismail.json",
+      "path": "data/transliterations/wave-2/kurmanji_ismail.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "quranenc",
+        "title": "Kurmanji - كوردي kurmancî",
+        "key": "kurmanji_ismail",
+        "language_code": "kmr",
+        "language_name": "Kurmanji Kurdish",
+        "mode": "api"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ps_abdulwali.json",
+      "path": "data/transliterations/wave-2/ps_abdulwali.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ps_abdulwali.db",
+        "key": "ps_abdulwali",
+        "language_code": "ps",
+        "language_name": "ps_abdulwali"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ps_mokhtasar.json",
+      "path": "data/transliterations/wave-2/ps_mokhtasar.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ps_mokhtasar.db",
+        "key": "ps_mokhtasar",
+        "language_code": "ps",
+        "language_name": "ps_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ps_rwwad.json",
+      "path": "data/transliterations/wave-2/ps_rwwad.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ps_rwwad.db",
+        "key": "ps_rwwad",
+        "language_code": "ps",
+        "language_name": "ps_rwwad"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ps_zakaria.json",
+      "path": "data/transliterations/wave-2/ps_zakaria.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ps_zakaria.db",
+        "key": "ps_zakaria",
+        "language_code": "ps",
+        "language_name": "ps_zakaria"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "sd_amroti.json",
+      "path": "data/transliterations/wave-2/sd_amroti.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "sd_amroti.db",
+        "key": "sd_amroti",
+        "language_code": "sd",
+        "language_name": "sd_amroti"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ug_mokhtasar.json",
+      "path": "data/transliterations/wave-2/ug_mokhtasar.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ug_mokhtasar.db",
+        "key": "ug_mokhtasar",
+        "language_code": "ug",
+        "language_name": "ug_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ug_saleh.json",
+      "path": "data/transliterations/wave-2/ug_saleh.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ug_saleh.db",
+        "key": "ug_saleh",
+        "language_code": "ug",
+        "language_name": "ug_saleh"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ug_yousuf.json",
+      "path": "data/transliterations/wave-2/ug_yousuf.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ug_yousuf.db",
+        "key": "ug_yousuf",
+        "language_code": "ug",
+        "language_name": "ug_yousuf"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ur_junagarhi.json",
+      "path": "data/transliterations/wave-2/ur_junagarhi.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ur_junagarhi.db",
+        "key": "ur_junagarhi",
+        "language_code": "ur",
+        "language_name": "ur_junagarhi"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ur_mokhtasar.json",
+      "path": "data/transliterations/wave-2/ur_mokhtasar.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ur_mokhtasar.db",
+        "key": "ur_mokhtasar",
+        "language_code": "ur",
+        "language_name": "ur_mokhtasar"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ur_taqi.json",
+      "path": "data/transliterations/wave-2/ur_taqi.json",
+      "wave": 2,
+      "script": "arabic",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ur_taqi.db",
+        "key": "ur_taqi",
+        "language_code": "ur",
+        "language_name": "ur_taqi"
+      },
+      "transliteration": {
+        "wave": 2,
+        "script": "arabic",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "zh_jian.json",
+      "path": "data/transliterations/wave-3/zh_jian.json",
+      "wave": 3,
+      "script": "han",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "zh_jian.db",
+        "key": "zh_jian",
+        "language_code": "zh",
+        "language_name": "zh_jian"
+      },
+      "transliteration": {
+        "wave": 3,
+        "script": "han",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ja_meta.json",
+      "path": "data/transliterations/wave-3/ja_meta.json",
+      "wave": 3,
+      "script": "hiragana",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ja_meta.db",
+        "key": "ja_meta",
+        "language_code": "ja",
+        "language_name": "ja_meta"
+      },
+      "transliteration": {
+        "wave": 3,
+        "script": "hiragana",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "ja_sato.json",
+      "path": "data/transliterations/wave-3/ja_sato.json",
+      "wave": 3,
+      "script": "hiragana",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "ja_sato.db",
+        "key": "ja_sato",
+        "language_code": "ja",
+        "language_name": "ja_sato"
+      },
+      "transliteration": {
+        "wave": 3,
+        "script": "hiragana",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "km_cambodia.json",
+      "path": "data/transliterations/wave-3/km_cambodia.json",
+      "wave": 3,
+      "script": "khmer",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "km_cambodia.db",
+        "key": "km_cambodia",
+        "language_code": "km",
+        "language_name": "km_cambodia"
+      },
+      "transliteration": {
+        "wave": 3,
+        "script": "khmer",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "dv_bakurube.json",
+      "path": "data/transliterations/wave-3/dv_bakurube.json",
+      "wave": 3,
+      "script": "thaana",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "dv_bakurube.db",
+        "key": "dv_bakurube",
+        "language_code": "dv",
+        "language_name": "dv_bakurube"
+      },
+      "transliteration": {
+        "wave": 3,
+        "script": "thaana",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    },
+    {
+      "file": "dv_maldives.json",
+      "path": "data/transliterations/wave-3/dv_maldives.json",
+      "wave": 3,
+      "script": "thaana",
+      "row_count": 6236,
+      "source": {
+        "kind": "app",
+        "source_db": "dv_maldives.db",
+        "key": "dv_maldives",
+        "language_code": "dv",
+        "language_name": "dv_maldives"
+      },
+      "transliteration": {
+        "wave": 3,
+        "script": "thaana",
+        "target_script": "latin",
+        "method": "unidecode"
+      }
+    }
+  ],
+  "notes": [
+    "Publish-ready Latin transliterations organized by wave.",
+    "JSON files are cleaned of URLs and link text.",
+    "Excluded files were removed after review."
+  ]
+}
