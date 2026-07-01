@@ -1,45 +1,35 @@
 # QuranLatin
 
-Latin-script Quran translation datasets, organized for publishing and reuse.
+Latin-script Quran datasets, organized for publishing and reuse.
 
-This repository currently contains two packages:
+## Browse the Data
 
-## 1. Bengali Package
+- Open the landing page: [`index.html`](./index.html)
+- Repository manifest: [`manifest.json`](./manifest.json)
+- Bengali package manifest: [`data/bengali/manifest.json`](./data/bengali/manifest.json)
+- Transliteration bundle manifest: [`data/transliterations/manifest.json`](./data/transliterations/manifest.json)
 
-Legacy Bengali Latin transliteration data.
+## Packages
 
-- Location: `data/bengali`
-- Sources: 5 verse-translation packs plus 1 word-by-word pack
-- Combined verse rows: `31,180`
-- Word-by-word entries: `83,664`
+| Package | Location | Notes |
+| --- | --- | --- |
+| Bengali Package | [`data/bengali`](./data/bengali) | 5 verse-translation packs plus 1 word-by-word pack |
+| Transliteration Bundle | [`data/transliterations`](./data/transliterations) | 89 cleaned Latin transliteration JSON files |
 
-See `data/bengali/manifest.json` for the full package manifest.
-
-## 2. Transliteration Bundle
-
-Publish-ready Latin transliterations for the broader translation set.
-
-- Location: `data/transliterations`
-- Total JSON files: `89`
-- Wave 1: `62`
-- Wave 2: `21`
-- Wave 3: `6`
+## Transliteration Bundle
 
 The bundle is organized by wave:
 
-- `data/transliterations/wave-1`
-- `data/transliterations/wave-2`
-- `data/transliterations/wave-3`
-
-See `data/transliterations/manifest.json` for the full bundle manifest.
+- [`data/transliterations/wave-1`](./data/transliterations/wave-1)
+- [`data/transliterations/wave-2`](./data/transliterations/wave-2)
+- [`data/transliterations/wave-3`](./data/transliterations/wave-3)
 
 ## Quality Notes
 
 - JSON files in this repository are cleaned of URLs and web-link fields.
-- A few draft files were excluded after review because the transliteration quality was not fit for publishing.
-- The transliteration bundle is designed to be readable and reusable, but some files may still benefit from expert linguistic review.
+- Draft files that failed review were excluded from the publish-ready bundle.
+- Some files may still benefit from expert linguistic review before scholarly use.
 
 ## Credits
 
 QUL and QuranENC.
-
