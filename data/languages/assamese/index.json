@@ -1,0 +1,20 @@
+{
+  "language": "Assamese",
+  "language_code": "as",
+  "language_slug": "assamese",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Assamese",
+      "language_code": "as",
+      "language_slug": "assamese",
+      "translation_name": "Rafeeq",
+      "file": "as_rafeeq.json",
+      "path": "data/languages/assamese/as_rafeeq.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "(Arambha karicho~) parama karuNAmaYa parama daYAlu AllAhara nAmata|"
+    }
+  ]
+}

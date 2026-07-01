@@ -1,0 +1,32 @@
+{
+  "language": "Kazakh",
+  "language_code": "kk",
+  "language_slug": "kazakh",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Kazakh",
+      "language_code": "kk",
+      "language_slug": "kazakh",
+      "translation_name": "Altai",
+      "file": "kk_altai.json",
+      "path": "data/languages/kazakh/kk_altai.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Asa k'amk'or, erekshe meiirimdi Allanyn' atymen bastaimyn."
+    },
+    {
+      "language": "Kazakh",
+      "language_code": "kk",
+      "language_slug": "kazakh",
+      "translation_name": "Assoc",
+      "file": "kk_altai_assoc.json",
+      "path": "data/languages/kazakh/kk_altai_assoc.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Asa K'aiyrymdy, erekshe Meiirimdi Allahtyn' atymen"
+    }
+  ]
+}

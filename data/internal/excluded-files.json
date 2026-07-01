@@ -1,0 +1,26 @@
+[
+  {
+    "file": "circassian_rwwad.json",
+    "wave": null,
+    "script": "cyrillic",
+    "reason": "failed review"
+  },
+  {
+    "file": "nqo_Karamomamadi.json",
+    "wave": null,
+    "script": "nko",
+    "reason": "failed review"
+  },
+  {
+    "file": "bambara-1ad85b2f2de8c6f1e75b838826fcfb5d.json",
+    "wave": null,
+    "script": "nko",
+    "reason": "failed review"
+  },
+  {
+    "file": "ingush-a6b99ddb378bf1b7540473d1d0d87b08.json",
+    "wave": null,
+    "script": "empty",
+    "reason": "failed review"
+  }
+]

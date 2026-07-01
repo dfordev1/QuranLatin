@@ -1,0 +1,56 @@
+{
+  "language": "Pashto",
+  "language_code": "ps",
+  "language_slug": "pashto",
+  "translation_count": 4,
+  "translations": [
+    {
+      "language": "Pashto",
+      "language_code": "ps",
+      "language_slug": "pashto",
+      "translation_name": "Abdulwali",
+      "file": "ps_abdulwali.json",
+      "path": "data/languages/pashto/ps_abdulwali.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "d llh ph nmh srh (shrw` kwm) ch Dr zyt mhrbn, b Hdh rHm kwwnk~ d~"
+    },
+    {
+      "language": "Pashto",
+      "language_code": "ps",
+      "language_slug": "pashto",
+      "translation_name": "Mokhtasar",
+      "file": "ps_mokhtasar.json",
+      "path": "data/languages/pashto/ps_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "d llh ph nmh d qran lwstl pylwm, lh hGy mrsth GwRm w d hGy d nwm ph ydwlw brkht trlsh khwm. w ph bsm llh kh d llh t`ly dr Systh nwmwnh dy: 1- llh y`n: ph Hqh srh d `bdt wR wHqdr. w d d llh t`ly 'hnKRy nwm dy w bl Hwkh ph"
+    },
+    {
+      "language": "Pashto",
+      "language_code": "ps",
+      "language_slug": "pashto",
+      "translation_name": "Rwwad",
+      "file": "ps_rwwad.json",
+      "path": "data/languages/pashto/ps_rwwad.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "d llh -t`ly- ph nmh ch Dr mhrbn w rHm khwwnkhy dy."
+    },
+    {
+      "language": "Pashto",
+      "language_code": "ps",
+      "language_slug": "pashto",
+      "translation_name": "Zakaria",
+      "file": "ps_zakaria.json",
+      "path": "data/languages/pashto/ps_zakaria.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "1-1 d llh ph nmh srh (shrw` kwm) ch Dr zyt mhrbn, b Hdh rHm kwwnk~ d~"
+    }
+  ]
+}

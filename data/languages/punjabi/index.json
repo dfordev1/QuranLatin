@@ -1,0 +1,20 @@
+{
+  "language": "Punjabi",
+  "language_code": "pa",
+  "language_slug": "punjabi",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Punjabi",
+      "language_code": "pa",
+      "language_slug": "punjabi",
+      "translation_name": "Punjabi - ਪੰਜਾਬੀ",
+      "file": "punjabi_arif.json",
+      "path": "data/languages/punjabi/punjabi_arif.json",
+      "rows": 6236,
+      "original_script": "Gurmukhi script",
+      "quality_status": "reviewed-draft",
+      "sample": "zurU (karadA hAM) allAha de nAM nAla jihar3A atiaMta miharabAna ate rahima faramAuNa vAlA hai|"
+    }
+  ]
+}

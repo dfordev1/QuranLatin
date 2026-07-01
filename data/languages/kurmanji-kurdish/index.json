@@ -1,0 +1,20 @@
+{
+  "language": "Kurmanji Kurdish",
+  "language_code": "kmr",
+  "language_slug": "kurmanji-kurdish",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Kurmanji Kurdish",
+      "language_code": "kmr",
+      "language_slug": "kurmanji-kurdish",
+      "translation_name": "Kurmanji - كوردي kurmancî",
+      "file": "kurmanji_ismail.json",
+      "path": "data/languages/kurmanji-kurdish/kurmanji_ismail.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "1. b nvY khwdyY dloevn w pR dloevn"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "language": "Greek",
+  "language_code": "greek-3a6985a5c88226187d5a4a770da7469c.json",
+  "language_slug": "greek",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Greek",
+      "language_code": "el",
+      "language_slug": "greek",
+      "translation_name": "Greek - Ελληνικά",
+      "file": "greek_rwwad.json",
+      "path": "data/languages/greek/greek_rwwad.json",
+      "rows": 6236,
+      "original_script": "Greek script",
+      "quality_status": "draft",
+      "sample": "Sto Onoma tou Allakh, tou Ar-Rakhman (Panteleemona), tou Ar-Rakheim (Polueusplakhnou)."
+    },
+    {
+      "language": "Greek",
+      "language_code": "greek-3a6985a5c88226187d5a4a770da7469c.json",
+      "language_slug": "greek",
+      "translation_name": "Greek translation",
+      "file": "greek-3a6985a5c88226187d5a4a770da7469c.json",
+      "path": "data/languages/greek/greek-3a6985a5c88226187d5a4a770da7469c.json",
+      "rows": 6236,
+      "original_script": "Greek script",
+      "quality_status": "draft",
+      "sample": "Sto Onoma tou Allakh, tou Ar-Rakhman (Panteleemona), tou Ar-Rakheim (Polueusplakhnou)."
+    }
+  ]
+}

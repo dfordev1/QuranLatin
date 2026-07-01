@@ -1,0 +1,32 @@
+{
+  "language": "Sinhala",
+  "language_code": "si",
+  "language_slug": "sinhala",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Sinhala",
+      "language_code": "si",
+      "language_slug": "sinhala",
+      "translation_name": "Mahir",
+      "file": "si_mahir.json",
+      "path": "data/languages/sinhala/si_mahir.json",
+      "rows": 6236,
+      "original_script": "Sinhala script",
+      "quality_status": "needs-review",
+      "sample": "aprimit dyaanvit asmsm krunnaanvit vuu allaah gee naamyeni."
+    },
+    {
+      "language": "Sinhala",
+      "language_code": "si",
+      "language_slug": "sinhala",
+      "translation_name": "Mokhtasar",
+      "file": "si_mokhtasar.json",
+      "path": "data/languages/sinhala/si_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Sinhala script",
+      "quality_status": "needs-review",
+      "sample": "allaahgee naamyen: ohugen upkaar ptmin, ohugee naamy menehi kott bhaagy soymin al kuraany kiyviimtt mm aarmbh krmi. allaahgee alNkaar naam aturin nm tunk 'bsmlaa' hi aetullt vee. ey meseey: 1. 'allaah' enm: naemdumtt sud"
+    }
+  ]
+}

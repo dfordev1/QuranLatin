@@ -1,0 +1,44 @@
+{
+  "language": "Uyghur",
+  "language_code": "ug",
+  "language_slug": "uyghur",
+  "translation_count": 3,
+  "translations": [
+    {
+      "language": "Uyghur",
+      "language_code": "ug",
+      "language_slug": "uyghur",
+      "translation_name": "Mokhtasar",
+      "file": "ug_mokhtasar.json",
+      "path": "data/languages/uyghur/ug_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "y'llhn~ng y'~sm~n~ z~k~r q~l~sh b~laen baer~kaet t~laep vae y'un~ngd~n yrdaem swrp qury'n kaer~mn~ y'wqushn~ bshlymaen. <<bismi 'llWahi 'lrWaHmani 'lrWaHiymi / b~sm~llh~rraehmn~rraeh~ym>> dgaen y'yaet y'llhn~ng gyuzael y"
+    },
+    {
+      "language": "Uyghur",
+      "language_code": "ug",
+      "language_slug": "uyghur",
+      "translation_name": "Saleh",
+      "file": "ug_saleh.json",
+      "path": "data/languages/uyghur/ug_saleh.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "nhy~t~ shaepqaetl~k vae mhr~bn y'llhn~ng y'~sm~ b~laen bshlymaen[1]."
+    },
+    {
+      "language": "Uyghur",
+      "language_code": "ug",
+      "language_slug": "uyghur",
+      "translation_name": "Yousuf",
+      "file": "ug_yousuf.json",
+      "path": "data/languages/uyghur/ug_yousuf.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "nhy~t~ shaepqaetl~k, twl~mu mhr~bn y'llhn~ng y'~sm~ b~laen (bshlymaen)."
+    }
+  ]
+}

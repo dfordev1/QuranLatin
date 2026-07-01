@@ -1,0 +1,1667 @@
+{
+  "name": "QuranLatin",
+  "description": "Quran translation texts converted into Latin letters for easier reading, search, and app development.",
+  "generated_at": "2026-07-01T04:15:15+00:00",
+  "total_languages": 44,
+  "total_translations": 89,
+  "languages": [
+    {
+      "language": "Amharic",
+      "language_code": "am",
+      "language_slug": "amharic",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/amharic/am_mokhtasar.json",
+        "data/languages/amharic/am_sadiq.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Arabic",
+      "language_code": "ar",
+      "language_slug": "arabic",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/arabic/ar_mokhtasar.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Assamese",
+      "language_code": "as",
+      "language_slug": "assamese",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/assamese/as_rafeeq.json"
+      ],
+      "quality_statuses": [
+        "reviewed-draft"
+      ]
+    },
+    {
+      "language": "Belarusian",
+      "language_code": "be",
+      "language_slug": "belarusian",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/belarusian/belarusian_krivtsov.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_count": 8,
+      "json_files": [
+        "data/languages/bengali/bn_bayaan.json",
+        "data/languages/bengali/bn_fozlur.json",
+        "data/languages/bengali/bn_ifaba.json",
+        "data/languages/bengali/bn_mkhan.json",
+        "data/languages/bengali/bn_mujibur.json",
+        "data/languages/bengali/bn_sean.json",
+        "data/languages/bengali/bn_taisirul.json",
+        "data/languages/bengali/bn_taqi.json"
+      ],
+      "quality_statuses": [
+        "reviewed-draft"
+      ]
+    },
+    {
+      "language": "Bulgarian",
+      "language_code": "bg",
+      "language_slug": "bulgarian",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/bulgarian/bg_translation.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Chechen",
+      "language_code": "ce",
+      "language_slug": "chechen",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/chechen/chechen-ddf46a41f63504bc24c0eae68714d53f.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Chinese",
+      "language_code": "zh",
+      "language_slug": "chinese",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/chinese/zh_jian.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Dari",
+      "language_code": "prs",
+      "language_slug": "dari",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/dari/dari_anwar.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Dhivehi",
+      "language_code": "dv",
+      "language_slug": "dhivehi",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/dhivehi/dv_bakurube.json",
+        "data/languages/dhivehi/dv_maldives.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Georgian",
+      "language_code": "georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
+      "language_slug": "georgian",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/georgian/georgian_rwwad.json",
+        "data/languages/georgian/georgian-472bf122b5fc3e180ed13bfc2b381a72.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Greek",
+      "language_code": "greek-3a6985a5c88226187d5a4a770da7469c.json",
+      "language_slug": "greek",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/greek/greek_rwwad.json",
+        "data/languages/greek/greek-3a6985a5c88226187d5a4a770da7469c.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Gujarati",
+      "language_code": "gu",
+      "language_slug": "gujarati",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/gujarati/gu_omari.json"
+      ],
+      "quality_statuses": [
+        "reviewed-draft"
+      ]
+    },
+    {
+      "language": "Hebrew",
+      "language_code": "he",
+      "language_slug": "hebrew",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/hebrew/he_darussalam.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Hindi",
+      "language_code": "hi",
+      "language_slug": "hindi",
+      "translation_count": 4,
+      "json_files": [
+        "data/languages/hindi/hi_farooq.json",
+        "data/languages/hindi/hi_mokhtasar.json",
+        "data/languages/hindi/hi_nadwi.json",
+        "data/languages/hindi/hi_omari.json"
+      ],
+      "quality_statuses": [
+        "reviewed-draft"
+      ]
+    },
+    {
+      "language": "Japanese",
+      "language_code": "ja",
+      "language_slug": "japanese",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/japanese/ja_meta.json",
+        "data/languages/japanese/ja_sato.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Kannada",
+      "language_code": "kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
+      "language_slug": "kannada",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/kannada/kannada_hamza.json",
+        "data/languages/kannada/kannada-9f4798e061a3e97f6b3f59bbe28862e5.json"
+      ],
+      "quality_statuses": [
+        "reviewed-draft"
+      ]
+    },
+    {
+      "language": "Kashmiri",
+      "language_code": "kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
+      "language_slug": "kashmiri",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/kashmiri/kashmiri-b31848d4d3fa0adef058fe11acf072ed.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Kazakh",
+      "language_code": "kk",
+      "language_slug": "kazakh",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/kazakh/kk_altai.json",
+        "data/languages/kazakh/kk_altai_assoc.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Khmer",
+      "language_code": "km",
+      "language_slug": "khmer",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/khmer/km_cambodia.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Korean",
+      "language_code": "ko",
+      "language_slug": "korean",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/korean/ko_korean.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Kurdish",
+      "language_code": "ku",
+      "language_slug": "kurdish",
+      "translation_count": 3,
+      "json_files": [
+        "data/languages/kurdish/ku_asan.json",
+        "data/languages/kurdish/ku_bamoki.json",
+        "data/languages/kurdish/ku_mokhtasar.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Kurmanji Kurdish",
+      "language_code": "kmr",
+      "language_slug": "kurmanji-kurdish",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/kurmanji-kurdish/kurmanji_ismail.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Kyrgyz",
+      "language_code": "ky",
+      "language_slug": "kyrgyz",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/kyrgyz/ky_abdalkhaleq.json",
+        "data/languages/kyrgyz/ky_mokhtasar.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Macedonian",
+      "language_code": "mk",
+      "language_slug": "macedonian",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/macedonian/mk_Macedonianscholars.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Malayalam",
+      "language_code": "ml",
+      "language_slug": "malayalam",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/malayalam/ml_abdulhameed.json",
+        "data/languages/malayalam/ml_karakunnu.json"
+      ],
+      "quality_statuses": [
+        "reviewed-draft"
+      ]
+    },
+    {
+      "language": "Marathi",
+      "language_code": "marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
+      "language_slug": "marathi",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/marathi/marathi_ansari.json",
+        "data/languages/marathi/marathi-aeba9c5df8546756ec3c7599c285b1b9.json"
+      ],
+      "quality_statuses": [
+        "reviewed-draft"
+      ]
+    },
+    {
+      "language": "Nepali",
+      "language_code": "ne",
+      "language_slug": "nepali",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/nepali/ne_islamicsangh.json",
+        "data/languages/nepali/ne_mokhtasar.json"
+      ],
+      "quality_statuses": [
+        "reviewed-draft"
+      ]
+    },
+    {
+      "language": "Pashto",
+      "language_code": "ps",
+      "language_slug": "pashto",
+      "translation_count": 4,
+      "json_files": [
+        "data/languages/pashto/ps_abdulwali.json",
+        "data/languages/pashto/ps_mokhtasar.json",
+        "data/languages/pashto/ps_rwwad.json",
+        "data/languages/pashto/ps_zakaria.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Persian",
+      "language_code": "fa",
+      "language_slug": "persian",
+      "translation_count": 3,
+      "json_files": [
+        "data/languages/persian/fa_husseintaji.json",
+        "data/languages/persian/fa_islamhouse.json",
+        "data/languages/persian/fa_mokhtasar.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Punjabi",
+      "language_code": "pa",
+      "language_slug": "punjabi",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/punjabi/punjabi_arif.json"
+      ],
+      "quality_statuses": [
+        "reviewed-draft"
+      ]
+    },
+    {
+      "language": "Russian",
+      "language_code": "ru",
+      "language_slug": "russian",
+      "translation_count": 3,
+      "json_files": [
+        "data/languages/russian/ru_abuadel.json",
+        "data/languages/russian/ru_kuliev.json",
+        "data/languages/russian/ru_mokhtasar.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Serbian",
+      "language_code": "sr",
+      "language_slug": "serbian",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/serbian/sr_mokhtasar.json",
+        "data/languages/serbian/sr_rowwad.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Sindhi",
+      "language_code": "sd",
+      "language_slug": "sindhi",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/sindhi/sd_amroti.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Sinhala",
+      "language_code": "si",
+      "language_slug": "sinhala",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/sinhala/si_mahir.json",
+        "data/languages/sinhala/si_mokhtasar.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Tajik",
+      "language_code": "tg",
+      "language_slug": "tajik",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/tajik/tg_arifi.json",
+        "data/languages/tajik/tg_mokhtasar.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Tamil",
+      "language_code": "ta",
+      "language_slug": "tamil",
+      "translation_count": 4,
+      "json_files": [
+        "data/languages/tamil/ta_baqavi.json",
+        "data/languages/tamil/ta_jantrust.json",
+        "data/languages/tamil/ta_mokhtasar.json",
+        "data/languages/tamil/ta_omar_sheriff.json"
+      ],
+      "quality_statuses": [
+        "reviewed-draft"
+      ]
+    },
+    {
+      "language": "Tatar",
+      "language_code": "tt",
+      "language_slug": "tatar",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/tatar/tt_yakub.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Telugu",
+      "language_code": "te",
+      "language_slug": "telugu",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/telugu/te_bayan.json",
+        "data/languages/telugu/te_divya.json"
+      ],
+      "quality_statuses": [
+        "reviewed-draft"
+      ]
+    },
+    {
+      "language": "Thai",
+      "language_code": "th",
+      "language_slug": "thai",
+      "translation_count": 2,
+      "json_files": [
+        "data/languages/thai/th_fahad.json",
+        "data/languages/thai/th_mokhtasar.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Ukrainian",
+      "language_code": "uk",
+      "language_slug": "ukrainian",
+      "translation_count": 1,
+      "json_files": [
+        "data/languages/ukrainian/uk_mikhailo.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    },
+    {
+      "language": "Urdu",
+      "language_code": "ur",
+      "language_slug": "urdu",
+      "translation_count": 3,
+      "json_files": [
+        "data/languages/urdu/ur_junagarhi.json",
+        "data/languages/urdu/ur_mokhtasar.json",
+        "data/languages/urdu/ur_taqi.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Uyghur",
+      "language_code": "ug",
+      "language_slug": "uyghur",
+      "translation_count": 3,
+      "json_files": [
+        "data/languages/uyghur/ug_mokhtasar.json",
+        "data/languages/uyghur/ug_saleh.json",
+        "data/languages/uyghur/ug_yousuf.json"
+      ],
+      "quality_statuses": [
+        "needs-review"
+      ]
+    },
+    {
+      "language": "Uzbek",
+      "language_code": "uz",
+      "language_slug": "uzbek",
+      "translation_count": 4,
+      "json_files": [
+        "data/languages/uzbek/uz_mansour.json",
+        "data/languages/uzbek/uz_mokhtasar.json",
+        "data/languages/uzbek/uz_rwwad.json",
+        "data/languages/uzbek/uz_yusuf.json"
+      ],
+      "quality_statuses": [
+        "draft"
+      ]
+    }
+  ],
+  "translations": [
+    {
+      "language": "Amharic",
+      "language_code": "am",
+      "language_slug": "amharic",
+      "translation_name": "Mokhtasar",
+      "file": "am_mokhtasar.json",
+      "path": "data/languages/amharic/am_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Ethiopic script",
+      "quality_status": "needs-review",
+      "sample": "ba'alaahe bamataagazenaa semune bamaawesaate rade'eetene bamafalage ba'alaahe seme qure'aanene maanebabe 'ejameraalahu. <<basemalaa>> (bisemilaahi 'are-raahhemaani 'are-rahhime) yamilawe hharage ka'alaahe webe semoce mak"
+    },
+    {
+      "language": "Amharic",
+      "language_code": "am",
+      "language_slug": "amharic",
+      "translation_name": "Sadiq",
+      "file": "am_sadiq.json",
+      "path": "data/languages/amharic/am_sadiq.json",
+      "rows": 6236,
+      "original_script": "Ethiopic script",
+      "quality_status": "needs-review",
+      "sample": "ba'alaahe seme 'ejege bathaame ruxeruhe bathaame 'azaanye bakxonawe"
+    },
+    {
+      "language": "Arabic",
+      "language_code": "ar",
+      "language_slug": "arabic",
+      "translation_name": "Mokhtasar",
+      "file": "ar_mokhtasar.json",
+      "path": "data/languages/arabic/ar_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "bsm llh 'bd' qr@ lqran, mst`ynan bh t`l~ mtbrkan bdhkr smh. wqd tDmnt lbsml@ thlth@ mn 'sm llh lHsn~, why: 1 - <<llh>>; 'y: lm`bwd bHq, whw 'khS 'sm llh t`l~, wl ysm~ bh Gyrh sbHnh. 2 - <<lrWaHman>>; 'y: dhw lrHm@ lws`@."
+    },
+    {
+      "language": "Assamese",
+      "language_code": "as",
+      "language_slug": "assamese",
+      "translation_name": "Rafeeq",
+      "file": "as_rafeeq.json",
+      "path": "data/languages/assamese/as_rafeeq.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "(Arambha karicho~) parama karuNAmaYa parama daYAlu AllAhara nAmata|"
+    },
+    {
+      "language": "Belarusian",
+      "language_code": "be",
+      "language_slug": "belarusian",
+      "translation_name": "Belarusian - Беларуская",
+      "file": "belarusian_krivtsov.json",
+      "path": "data/languages/belarusian/belarusian_krivtsov.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Imem Allaga Litastsivaga, Milasernaga!"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Bayaan",
+      "file": "bn_bayaan.json",
+      "path": "data/languages/bengali/bn_bayaan.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "parama karuNAmaYa ati daYAlu AllAhara nAme|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Fozlur",
+      "file": "bn_fozlur.json",
+      "path": "data/languages/bengali/bn_fozlur.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "karuNAmaYa o parama daYAlu AllAhara nAme"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Ifaba",
+      "file": "bn_ifaba.json",
+      "path": "data/languages/bengali/bn_ifaba.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "zuru karachi AllAhara nAme yini parama karuNAmaYa, ati daYAlu|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Mkhan",
+      "file": "bn_mkhan.json",
+      "path": "data/languages/bengali/bn_mkhan.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "zuru karachi AllAhara nAme yini parama karuNAmaYa, ati daYAlu|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Mujibur",
+      "file": "bn_mujibur.json",
+      "path": "data/languages/bengali/bn_mujibur.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "parama karuNAmaYa, asIma daYAlu AllAhara nAme (zuru karachi)|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Sean",
+      "file": "bn_sean.json",
+      "path": "data/languages/bengali/bn_sean.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "parama karuNAmaYa, asIma daYAlu AllAhara nAme zuru karachi|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Taisirul",
+      "file": "bn_taisirul.json",
+      "path": "data/languages/bengali/bn_taisirul.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "(Arambha karachi) parama karuNAmaYa asIma daYAmaYa AllAhara nAme|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Taqi",
+      "file": "bn_taqi.json",
+      "path": "data/languages/bengali/bn_taqi.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "AllAhara nAme zuru, yini sakalera prati daYAvAna, parama daYAlu|"
+    },
+    {
+      "language": "Bulgarian",
+      "language_code": "bg",
+      "language_slug": "bulgarian",
+      "translation_name": "Translation",
+      "file": "bg_translation.json",
+      "path": "data/languages/bulgarian/bg_translation.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "V imeto na Allakh, Vsemilostiviia, Milos'rdniia!"
+    },
+    {
+      "language": "Chechen",
+      "language_code": "ce",
+      "language_slug": "chechen",
+      "translation_name": "Magomed Magomedov",
+      "file": "chechen-ddf46a41f63504bc24c0eae68714d53f.json",
+      "path": "data/languages/chechen/chechen-ddf46a41f63504bc24c0eae68714d53f.json",
+      "rows": 6030,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Sha sov k'inkhetame a, k'inkhetame a volchu Delan tsIartsa."
+    },
+    {
+      "language": "Chinese",
+      "language_code": "zh",
+      "language_slug": "chinese",
+      "translation_name": "Jian",
+      "file": "zh_jian.json",
+      "path": "data/languages/chinese/zh_jian.json",
+      "rows": 6236,
+      "original_script": "Chinese characters",
+      "quality_status": "draft",
+      "sample": "Feng Zhi Ren Zhi Ci De An La Zhi Ming"
+    },
+    {
+      "language": "Dari",
+      "language_code": "prs",
+      "language_slug": "dari",
+      "translation_name": "Anwar",
+      "file": "dari_anwar.json",
+      "path": "data/languages/dari/dari_anwar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "Gz my khnm bnm khdy bsyr bkhshndh w zydh mhrbn."
+    },
+    {
+      "language": "Dhivehi",
+      "language_code": "dv",
+      "language_slug": "dhivehi",
+      "translation_name": "Bakurube",
+      "file": "dv_bakurube.json",
+      "path": "data/languages/dhivehi/dv_bakurube.json",
+      "rows": 6236,
+      "original_script": "Thaana script",
+      "quality_status": "needs-review",
+      "sample": "furathama 'a`uwdhu gemaana: heyokamaadhuruvegenvaa 'adhi la`na@ le'vi fa'sa'ilevigenvaa shyTn 'aage faraathun salaamathve ra'kaatherivumash ge HDr@ n mi'aLaa Hmy@ 'aa'i ra'kaatherikan libigannameve.\n------------- ge nanf"
+    },
+    {
+      "language": "Dhivehi",
+      "language_code": "dv",
+      "language_slug": "dhivehi",
+      "translation_name": "Maldives",
+      "file": "dv_maldives.json",
+      "path": "data/languages/dhivehi/dv_maldives.json",
+      "rows": 6236,
+      "original_script": "Thaana script",
+      "quality_status": "needs-review",
+      "sample": "rHmn vantha rHym vantha llWah ge sm fuLun fasha'igannameve."
+    },
+    {
+      "language": "Georgian",
+      "language_code": "ka",
+      "language_slug": "georgian",
+      "translation_name": "Georgian - ქართული",
+      "file": "georgian_rwwad.json",
+      "path": "data/languages/georgian/georgian_rwwad.json",
+      "rows": 6236,
+      "original_script": "Georgian script",
+      "quality_status": "draft",
+      "sample": "saxelit`a allahisa, mocqalisa, mcqalobelisa."
+    },
+    {
+      "language": "Georgian",
+      "language_code": "georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
+      "language_slug": "georgian",
+      "translation_name": "Georgian Translation",
+      "file": "georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
+      "path": "data/languages/georgian/georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
+      "rows": 899,
+      "original_script": "Georgian script",
+      "quality_status": "draft",
+      "sample": "saxelit`a allahisa, mocqalisa, mcqalobelisa."
+    },
+    {
+      "language": "Greek",
+      "language_code": "el",
+      "language_slug": "greek",
+      "translation_name": "Greek - Ελληνικά",
+      "file": "greek_rwwad.json",
+      "path": "data/languages/greek/greek_rwwad.json",
+      "rows": 6236,
+      "original_script": "Greek script",
+      "quality_status": "draft",
+      "sample": "Sto Onoma tou Allakh, tou Ar-Rakhman (Panteleemona), tou Ar-Rakheim (Polueusplakhnou)."
+    },
+    {
+      "language": "Greek",
+      "language_code": "greek-3a6985a5c88226187d5a4a770da7469c.json",
+      "language_slug": "greek",
+      "translation_name": "Greek translation",
+      "file": "greek-3a6985a5c88226187d5a4a770da7469c.json",
+      "path": "data/languages/greek/greek-3a6985a5c88226187d5a4a770da7469c.json",
+      "rows": 6236,
+      "original_script": "Greek script",
+      "quality_status": "draft",
+      "sample": "Sto Onoma tou Allakh, tou Ar-Rakhman (Panteleemona), tou Ar-Rakheim (Polueusplakhnou)."
+    },
+    {
+      "language": "Gujarati",
+      "language_code": "gu",
+      "language_slug": "gujarati",
+      "translation_name": "Omari",
+      "file": "gu_omari.json",
+      "path": "data/languages/gujarati/gu_omari.json",
+      "rows": 6236,
+      "original_script": "Gujarati script",
+      "quality_status": "reviewed-draft",
+      "sample": "allAhanA nAmathI, (zarU karuM chuM), je atyaMta kRpALu ane dayALu che."
+    },
+    {
+      "language": "Hebrew",
+      "language_code": "he",
+      "language_slug": "hebrew",
+      "translation_name": "Darussalam",
+      "file": "he_darussalam.json",
+      "path": "data/languages/hebrew/he_darussalam.json",
+      "rows": 6236,
+      "original_script": "Hebrew script",
+      "quality_status": "draft",
+      "sample": "bSHm Allh hrHmn hrHvm,"
+    },
+    {
+      "language": "Hindi",
+      "language_code": "hi",
+      "language_slug": "hindi",
+      "translation_name": "Farooq",
+      "file": "hi_farooq.json",
+      "path": "data/languages/hindi/hi_farooq.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "allAha ke nAma se jo bar3A kRpAlu aura atyanta dayAvAna haiM|"
+    },
+    {
+      "language": "Hindi",
+      "language_code": "hi",
+      "language_slug": "hindi",
+      "translation_name": "Mokhtasar",
+      "file": "hi_mokhtasar.json",
+      "path": "data/languages/hindi/hi_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "maiM allAha kA nAma lekara, usa sarvazaktimAna kI sahAyatA lete hue, usake nAma ke ullekha se barakata lete hue quraAna par3hanA zurU karatA hU~| 'bismillAhira rahamAnira rahIma' meM allAha ke tIna suMdara nAma maujUda h"
+    },
+    {
+      "language": "Hindi",
+      "language_code": "hi",
+      "language_slug": "hindi",
+      "translation_name": "Nadwi",
+      "file": "hi_nadwi.json",
+      "path": "data/languages/hindi/hi_nadwi.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "allAha ke nAma se jo rahamAna va rahIma hai|"
+    },
+    {
+      "language": "Hindi",
+      "language_code": "hi",
+      "language_slug": "hindi",
+      "translation_name": "Omari",
+      "file": "hi_omari.json",
+      "path": "data/languages/hindi/hi_omari.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "allAha ke nAma se, jo atyanta kRpAzIla tathA dayAvAn hai|"
+    },
+    {
+      "language": "Japanese",
+      "language_code": "ja",
+      "language_slug": "japanese",
+      "translation_name": "Meta",
+      "file": "ja_meta.json",
+      "path": "data/languages/japanese/ja_meta.json",
+      "rows": 6236,
+      "original_script": "Japanese kana/kanji",
+      "quality_status": "needs-review",
+      "sample": "1.Ci Bei amanekuCi Ai Shen kiatsura-noYu Ming nioite."
+    },
+    {
+      "language": "Japanese",
+      "language_code": "ja",
+      "language_slug": "japanese",
+      "translation_name": "Sato",
+      "file": "ja_sato.json",
+      "path": "data/languages/japanese/ja_sato.json",
+      "rows": 6236,
+      "original_script": "Japanese kana/kanji",
+      "quality_status": "needs-review",
+      "sample": "Ci Bei amaneku*Ci Ai Shen ki*atsura-*noYu Ming nioite."
+    },
+    {
+      "language": "Kannada",
+      "language_code": "kn",
+      "language_slug": "kannada",
+      "translation_name": "Kannada - ಕನ್ನಡ",
+      "file": "kannada_hamza.json",
+      "path": "data/languages/kannada/kannada_hamza.json",
+      "rows": 6236,
+      "original_script": "Kannada script",
+      "quality_status": "reviewed-draft",
+      "sample": "parama dayAmayanU karuNAnidhiyU Ada allAhana nAmadiMda.[1]"
+    },
+    {
+      "language": "Kannada",
+      "language_code": "kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
+      "language_slug": "kannada",
+      "translation_name": "Kannada Translation",
+      "file": "kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
+      "path": "data/languages/kannada/kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
+      "rows": 6236,
+      "original_script": "Kannada script",
+      "quality_status": "reviewed-draft",
+      "sample": "parama dayAmayanU kRpAnidhiyU Ada allAhana nAmadòMdigè,"
+    },
+    {
+      "language": "Kashmiri",
+      "language_code": "kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
+      "language_slug": "kashmiri",
+      "translation_name": "Bayanul Furqan(Koshur Quran)",
+      "file": "kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
+      "path": "data/languages/kashmiri/kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "llh t`ly s'ndi nw' sintY yus by nth mhr bn th' rHm khr n wwl chhu"
+    },
+    {
+      "language": "Kazakh",
+      "language_code": "kk",
+      "language_slug": "kazakh",
+      "translation_name": "Altai",
+      "file": "kk_altai.json",
+      "path": "data/languages/kazakh/kk_altai.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Asa k'amk'or, erekshe meiirimdi Allanyn' atymen bastaimyn."
+    },
+    {
+      "language": "Kazakh",
+      "language_code": "kk",
+      "language_slug": "kazakh",
+      "translation_name": "Assoc",
+      "file": "kk_altai_assoc.json",
+      "path": "data/languages/kazakh/kk_altai_assoc.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Asa K'aiyrymdy, erekshe Meiirimdi Allahtyn' atymen"
+    },
+    {
+      "language": "Khmer",
+      "language_code": "km",
+      "language_slug": "khmer",
+      "translation_name": "Cambodia",
+      "file": "km_cambodia.json",
+      "path": "data/languages/khmer/km_cambodia.json",
+      "rows": 6236,
+      "original_script": "Khmer script",
+      "quality_status": "needs-review",
+      "sample": "knungnaamqllooHmhaasppurs mhaaqaannitsrlaany."
+    },
+    {
+      "language": "Korean",
+      "language_code": "ko",
+      "language_slug": "korean",
+      "translation_name": "Korean",
+      "file": "ko_korean.json",
+      "path": "data/languages/korean/ko_korean.json",
+      "rows": 6236,
+      "original_script": "Hangul script",
+      "quality_status": "draft",
+      "sample": "jabirousigo jaaerousin hananimyi ireumeuro"
+    },
+    {
+      "language": "Kurdish",
+      "language_code": "ku",
+      "language_slug": "kurdish",
+      "translation_name": "Asan",
+      "file": "ku_asan.json",
+      "path": "data/languages/kurdish/ku_asan.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "bh nwy khwy bhkhshndhy myhrhbn (bh nwy y'hw khwyhy kngy RhHmht w soezw bhzhyyh)."
+    },
+    {
+      "language": "Kurdish",
+      "language_code": "ku",
+      "language_slug": "kurdish",
+      "translation_name": "Bamoki",
+      "file": "ku_bamoki.json",
+      "path": "data/languages/kurdish/ku_bamoki.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "baenwy khwy baekhshndaey myhraebn"
+    },
+    {
+      "language": "Kurdish",
+      "language_code": "ku",
+      "language_slug": "kurdish",
+      "translation_name": "Mokhtasar",
+      "file": "ku_mokhtasar.json",
+      "path": "data/languages/kurdish/ku_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "baenwy khwy gaewrae daest daekhaem baekhwYndny qwry'n, baepsht wpaen baekhwy gaewrae wtaebaeRwkh baenwy pyroezy, (bsm llae lrHmn lrHym) sY nwy pyroezy khwy gaewraey laekhoe grtwwae, y'aewnysh: 1-(llae) wt: paerstrwy baeh"
+    },
+    {
+      "language": "Kurmanji Kurdish",
+      "language_code": "kmr",
+      "language_slug": "kurmanji-kurdish",
+      "translation_name": "Kurmanji - كوردي kurmancî",
+      "file": "kurmanji_ismail.json",
+      "path": "data/languages/kurmanji-kurdish/kurmanji_ismail.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "1. b nvY khwdyY dloevn w pR dloevn"
+    },
+    {
+      "language": "Kyrgyz",
+      "language_code": "ky",
+      "language_slug": "kyrgyz",
+      "translation_name": "Abdalkhaleq",
+      "file": "ky_abdalkhaleq.json",
+      "path": "data/languages/kyrgyz/ky_abdalkhaleq.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Yraiymduu, Meerimduu Allakhtyn aty menen (bashtaimyn). [1]"
+    },
+    {
+      "language": "Kyrgyz",
+      "language_code": "ky",
+      "language_slug": "kyrgyz",
+      "translation_name": "Mokhtasar",
+      "file": "ky_mokhtasar.json",
+      "path": "data/languages/kyrgyz/ky_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Allakh Taaladan zhardam surap, Any atyn aituu menen bereke tilep, Kuran okuunu Anyn aty menen bashtaimyn. <<Bismillakh...>> sozu Allakhtyn uch korkom ysymyn ozuno kamtygan: birinchisi, <<Allakh>> - syiynuuga chynygy taty"
+    },
+    {
+      "language": "Macedonian",
+      "language_code": "mk",
+      "language_slug": "macedonian",
+      "translation_name": "Macedonianscholars",
+      "file": "mk_Macedonianscholars.json",
+      "path": "data/languages/macedonian/mk_Macedonianscholars.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "o imeto na Allakh, Semilosniot, Milostiviot![1]"
+    },
+    {
+      "language": "Malayalam",
+      "language_code": "ml",
+      "language_slug": "malayalam",
+      "translation_name": "Abdulhameed",
+      "file": "ml_abdulhameed.json",
+      "path": "data/languages/malayalam/ml_abdulhameed.json",
+      "rows": 6236,
+      "original_script": "Malayalam script",
+      "quality_status": "reviewed-draft",
+      "sample": "paramakAruNikanuM karuNAnidhiyumAya allAhuvinr2è tirunAmattil‍"
+    },
+    {
+      "language": "Malayalam",
+      "language_code": "ml",
+      "language_slug": "malayalam",
+      "translation_name": "Karakunnu",
+      "file": "ml_karakunnu.json",
+      "path": "data/languages/malayalam/ml_karakunnu.json",
+      "rows": 6236,
+      "original_script": "Malayalam script",
+      "quality_status": "reviewed-draft",
+      "sample": "paramakAruNikanuM dayAparanumAya allAhuvinr2è nAmattil‍."
+    },
+    {
+      "language": "Marathi",
+      "language_code": "mr",
+      "language_slug": "marathi",
+      "translation_name": "Marathi - मराठी",
+      "file": "marathi_ansari.json",
+      "path": "data/languages/marathi/marathi_ansari.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "1. allAhacyA nAvAne AraMbha karato, jo moThA kRpAvAna ANi atizaya dayA karaNArA Ahe."
+    },
+    {
+      "language": "Marathi",
+      "language_code": "marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
+      "language_slug": "marathi",
+      "translation_name": "Muhammad Shafi’i Ansari",
+      "file": "marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
+      "path": "data/languages/marathi/marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "allAhacyA nAvAne AraMbha karato, jo moThA kRpAvAna ANi atizaya dayA karaNArA Ahe."
+    },
+    {
+      "language": "Nepali",
+      "language_code": "ne",
+      "language_slug": "nepali",
+      "translation_name": "Islamicsangh",
+      "file": "ne_islamicsangh.json",
+      "path": "data/languages/nepali/ne_islamicsangh.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "zuru atyanta karuNAmaya, parama dayAlu allAhako nAmabATa |"
+    },
+    {
+      "language": "Nepali",
+      "language_code": "ne",
+      "language_slug": "nepali",
+      "translation_name": "Mokhtasar",
+      "file": "ne_mokhtasar.json",
+      "path": "data/languages/nepali/ne_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "1) ma allAha taAlAko nAma liMdai uhA~ko maddata mAgdai ra barakata khojdai kurAnako pATha zubhArambha gardachu | bismillAhamA allAhakA 3 vaTA uttama nAmaharUko ullekha bhaeko cha, tI nimnalikhita hun; ka) ‘allAha’ satya "
+    },
+    {
+      "language": "Pashto",
+      "language_code": "ps",
+      "language_slug": "pashto",
+      "translation_name": "Abdulwali",
+      "file": "ps_abdulwali.json",
+      "path": "data/languages/pashto/ps_abdulwali.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "d llh ph nmh srh (shrw` kwm) ch Dr zyt mhrbn, b Hdh rHm kwwnk~ d~"
+    },
+    {
+      "language": "Pashto",
+      "language_code": "ps",
+      "language_slug": "pashto",
+      "translation_name": "Mokhtasar",
+      "file": "ps_mokhtasar.json",
+      "path": "data/languages/pashto/ps_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "d llh ph nmh d qran lwstl pylwm, lh hGy mrsth GwRm w d hGy d nwm ph ydwlw brkht trlsh khwm. w ph bsm llh kh d llh t`ly dr Systh nwmwnh dy: 1- llh y`n: ph Hqh srh d `bdt wR wHqdr. w d d llh t`ly 'hnKRy nwm dy w bl Hwkh ph"
+    },
+    {
+      "language": "Pashto",
+      "language_code": "ps",
+      "language_slug": "pashto",
+      "translation_name": "Rwwad",
+      "file": "ps_rwwad.json",
+      "path": "data/languages/pashto/ps_rwwad.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "d llh -t`ly- ph nmh ch Dr mhrbn w rHm khwwnkhy dy."
+    },
+    {
+      "language": "Pashto",
+      "language_code": "ps",
+      "language_slug": "pashto",
+      "translation_name": "Zakaria",
+      "file": "ps_zakaria.json",
+      "path": "data/languages/pashto/ps_zakaria.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "1-1 d llh ph nmh srh (shrw` kwm) ch Dr zyt mhrbn, b Hdh rHm kwwnk~ d~"
+    },
+    {
+      "language": "Persian",
+      "language_code": "fa",
+      "language_slug": "persian",
+      "translation_name": "Husseintaji",
+      "file": "fa_husseintaji.json",
+      "path": "data/languages/persian/fa_husseintaji.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "bh nm khdwnd bkhshndhy mhrbn"
+    },
+    {
+      "language": "Persian",
+      "language_code": "fa",
+      "language_slug": "persian",
+      "translation_name": "Islamhouse",
+      "file": "fa_islamhouse.json",
+      "path": "data/languages/persian/fa_islamhouse.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "bh nm llh bkhshndhy mhrbn"
+    },
+    {
+      "language": "Persian",
+      "language_code": "fa",
+      "language_slug": "persian",
+      "translation_name": "Mokhtasar",
+      "file": "fa_mokhtasar.json",
+      "path": "data/languages/persian/fa_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "b st`nt z llh mt`l w bry brkht jstn z nm wy qry't r b nm w t`ly aGz my khnm. bsm llh lrHmn lrHym, sh mwrd z sm nykhwy llh r drbrdrd: 1 <<llh>>; y`ny: m`bwd brHq. llh, brtryn sm w t`ly st w Gyr dht pkhsh, hych khs dygry b"
+    },
+    {
+      "language": "Punjabi",
+      "language_code": "pa",
+      "language_slug": "punjabi",
+      "translation_name": "Punjabi - ਪੰਜਾਬੀ",
+      "file": "punjabi_arif.json",
+      "path": "data/languages/punjabi/punjabi_arif.json",
+      "rows": 6236,
+      "original_script": "Gurmukhi script",
+      "quality_status": "reviewed-draft",
+      "sample": "zurU (karadA hAM) allAha de nAM nAla jihar3A atiaMta miharabAna ate rahima faramAuNa vAlA hai|"
+    },
+    {
+      "language": "Russian",
+      "language_code": "ru",
+      "language_slug": "russian",
+      "translation_name": "Abuadel",
+      "file": "ru_abuadel.json",
+      "path": "data/languages/russian/ru_abuadel.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "S imenem Allakha Milostivogo, Miloserdnogo!"
+    },
+    {
+      "language": "Russian",
+      "language_code": "ru",
+      "language_slug": "russian",
+      "translation_name": "Kuliev",
+      "file": "ru_kuliev.json",
+      "path": "data/languages/russian/ru_kuliev.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Vo imia Allakha, Milostivogo, Miloserdnogo!"
+    },
+    {
+      "language": "Russian",
+      "language_code": "ru",
+      "language_slug": "russian",
+      "translation_name": "Mokhtasar",
+      "file": "ru_mokhtasar.json",
+      "path": "data/languages/russian/ru_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "1) S imenem Allakha nachinaiu chtenie Korana, s pomoshch'iu Vsevyshnego, i s nadezhdoi obresti blagodat' ot pominaniia Ego imeni. <<S imenem Allakha Milostivogo Miloserdnogo>> - eti slova soderzhat v sebe tri prekrasnykh"
+    },
+    {
+      "language": "Serbian",
+      "language_code": "sr",
+      "language_slug": "serbian",
+      "translation_name": "Mokhtasar",
+      "file": "sr_mokhtasar.json",
+      "path": "data/languages/serbian/sr_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Pochinjem svoje uchenje Kur'ana imenom Allakha, od Njega trazhetshi snagu za to, i trazhetshi Njegov blagoslov spominjutshi Njegovo ime. Bismilakh (u ime Allakha) sadrzhi tri Allakhova lepa imena: 1. Allakh, tj. Onaj Koj"
+    },
+    {
+      "language": "Serbian",
+      "language_code": "sr",
+      "language_slug": "serbian",
+      "translation_name": "Rowwad",
+      "file": "sr_rowwad.json",
+      "path": "data/languages/serbian/sr_rowwad.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "U ime Allakha, Milostivog, Samilosnog."
+    },
+    {
+      "language": "Sindhi",
+      "language_code": "sd",
+      "language_slug": "sindhi",
+      "translation_name": "Amroti",
+      "file": "sd_amroti.json",
+      "path": "data/languages/sindhi/sd_amroti.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "llh bjhry mhrbn jy nly sn (shrw`)"
+    },
+    {
+      "language": "Sinhala",
+      "language_code": "si",
+      "language_slug": "sinhala",
+      "translation_name": "Mahir",
+      "file": "si_mahir.json",
+      "path": "data/languages/sinhala/si_mahir.json",
+      "rows": 6236,
+      "original_script": "Sinhala script",
+      "quality_status": "needs-review",
+      "sample": "aprimit dyaanvit asmsm krunnaanvit vuu allaah gee naamyeni."
+    },
+    {
+      "language": "Sinhala",
+      "language_code": "si",
+      "language_slug": "sinhala",
+      "translation_name": "Mokhtasar",
+      "file": "si_mokhtasar.json",
+      "path": "data/languages/sinhala/si_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Sinhala script",
+      "quality_status": "needs-review",
+      "sample": "allaahgee naamyen: ohugen upkaar ptmin, ohugee naamy menehi kott bhaagy soymin al kuraany kiyviimtt mm aarmbh krmi. allaahgee alNkaar naam aturin nm tunk 'bsmlaa' hi aetullt vee. ey meseey: 1. 'allaah' enm: naemdumtt sud"
+    },
+    {
+      "language": "Tajik",
+      "language_code": "tg",
+      "language_slug": "tajik",
+      "translation_name": "Arifi",
+      "file": "tg_arifi.json",
+      "path": "data/languages/tajik/tg_arifi.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Ba nomi Khudovandi bakhshandai mekh'rubon."
+    },
+    {
+      "language": "Tajik",
+      "language_code": "tg",
+      "language_slug": "tajik",
+      "translation_name": "Mokhtasar",
+      "file": "tg_mokhtasar.json",
+      "path": "data/languages/tajik/tg_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "1) Bo zikri Khudo tilovati K'ur'onro og'oz bakhshida, bo iodi ismash az U kumak mekhokh'am. \"Bismillokh'i-r-Rakh'moni-r-Rakh'im\" shomili se nomi zeboi Khudo ast: (alaikh'is salom) Allokh': \"Ma'budi barkh'ak'\". In lafzi m"
+    },
+    {
+      "language": "Tamil",
+      "language_code": "ta",
+      "language_slug": "tamil",
+      "translation_name": "Baqavi",
+      "file": "ta_baqavi.json",
+      "path": "data/languages/tamil/ta_baqavi.json",
+      "rows": 6236,
+      "original_script": "Tamil script",
+      "quality_status": "reviewed-draft",
+      "sample": "aLavar2r2a aruLALan2uM, nigharar2r2a an2bhuDhaiyon2umAghiya allAhvin2 dhirubhbhèyarAl (odhughir2en2)"
+    },
+    {
+      "language": "Tamil",
+      "language_code": "ta",
+      "language_slug": "tamil",
+      "translation_name": "Jantrust",
+      "file": "ta_jantrust.json",
+      "path": "data/languages/tamil/ta_jantrust.json",
+      "rows": 6236,
+      "original_script": "Tamil script",
+      "quality_status": "reviewed-draft",
+      "sample": "aLavar2r2a aruLALan2uM, nigharar2r2a an2bhuDhaiyon2umAghiya allAhvin2 dhirubhbhèyarAl(dhuvaGghughir2en2)"
+    },
+    {
+      "language": "Tamil",
+      "language_code": "ta",
+      "language_slug": "tamil",
+      "translation_name": "Mokhtasar",
+      "file": "ta_mokhtasar.json",
+      "path": "data/languages/tamil/ta_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Tamil script",
+      "quality_status": "reviewed-draft",
+      "sample": "allAhviDhaM udhavi dheDhiyavarAghavuM, avan2adhu bhèyaraigh ghUr2uvadhan2 mUlaM aruLvaLadhdhai èdhirbhArdhdhavarAghavuM alghurAn2 odhuvadhai AraMbhaM jhèyghir2en2. \"bhismillAhir rahmAn2ir rahIM\" èn2bhadhu allAhvin2 mUn2r"
+    },
+    {
+      "language": "Tamil",
+      "language_code": "ta",
+      "language_slug": "tamil",
+      "translation_name": "Sheriff",
+      "file": "ta_omar_sheriff.json",
+      "path": "data/languages/tamil/ta_omar_sheriff.json",
+      "rows": 6236,
+      "original_script": "Tamil script",
+      "quality_status": "reviewed-draft",
+      "sample": "bheraruLALan2 bheran2bhALan2 allAhvin2 bhèyarAl."
+    },
+    {
+      "language": "Tatar",
+      "language_code": "tt",
+      "language_slug": "tatar",
+      "translation_name": "Yakub",
+      "file": "tt_yakub.json",
+      "path": "data/languages/tatar/tt_yakub.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "R@khimle sh@fkat'le Allah iseme bel@n bashlyim eshemne."
+    },
+    {
+      "language": "Telugu",
+      "language_code": "te",
+      "language_slug": "telugu",
+      "translation_name": "Bayan",
+      "file": "te_bayan.json",
+      "path": "data/languages/telugu/te_bayan.json",
+      "rows": 6236,
+      "original_script": "Telugu script",
+      "quality_status": "reviewed-draft",
+      "sample": "apAra karuNAmayuDu, parama kRpAzIluDaina allAh perutò"
+    },
+    {
+      "language": "Telugu",
+      "language_code": "te",
+      "language_slug": "telugu",
+      "translation_name": "Divya",
+      "file": "te_divya.json",
+      "path": "data/languages/telugu/te_divya.json",
+      "rows": 6236,
+      "original_script": "Telugu script",
+      "quality_status": "reviewed-draft",
+      "sample": "anaMta karuNAmayuDu apAra karuNA pradAta ayina allAh peruto"
+    },
+    {
+      "language": "Thai",
+      "language_code": "th",
+      "language_slug": "thai",
+      "translation_name": "Fahad",
+      "file": "th_fahad.json",
+      "path": "data/languages/thai/th_fahad.json",
+      "rows": 6236,
+      "original_script": "Thai script",
+      "quality_status": "needs-review",
+      "sample": "dwyphranaamkh`ng`all`h' phuuthrngkrunaapraanii phuuthrngemttaaesm`"
+    },
+    {
+      "language": "Thai",
+      "language_code": "th",
+      "language_slug": "thai",
+      "translation_name": "Mokhtasar",
+      "file": "th_mokhtasar.json",
+      "path": "data/languages/thai/th_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Thai script",
+      "quality_status": "needs-review",
+      "sample": "chanerimtnkaar`aan`alkur`aandwyphranaamkh`ng`all`h' kh`khwaam`nuekhraaahcchaakphra`ngkh kh`khwaamsirimngkhldwykaarklaawphranaamkh`ngphra`ngkh chuengkhamklaawbismillaah'niiaidrwmphranaamkh`ngphra`ngkhaiwdwykansaamphranaam"
+    },
+    {
+      "language": "Ukrainian",
+      "language_code": "uk",
+      "language_slug": "ukrainian",
+      "translation_name": "Mikhailo",
+      "file": "uk_mikhailo.json",
+      "path": "data/languages/ukrainian/uk_mikhailo.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Im'iam Allaga Milostivogo, Miloserdnogo!"
+    },
+    {
+      "language": "Urdu",
+      "language_code": "ur",
+      "language_slug": "urdu",
+      "translation_name": "Junagarhi",
+      "file": "ur_junagarhi.json",
+      "path": "data/languages/urdu/ur_junagarhi.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "shrw` khrt hwN llh t`ly khy nm sy jw brr mhrbn nhyt rHm w hy.[1]"
+    },
+    {
+      "language": "Urdu",
+      "language_code": "ur",
+      "language_slug": "urdu",
+      "translation_name": "Mokhtasar",
+      "file": "ur_mokhtasar.json",
+      "path": "data/languages/urdu/ur_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "1- myN qrn mjyd prrhny kh Gz llh t`ly khy nm khy sth, sy sy mdd lyty hwy'y wr s khy nm sy tbrkh HSl khrty hwy'y khrt hwN. bsm llh tyn smy'y Hsny pr mshtml hy: (1) llWhi y`ny m`bwd brHq wr yhy llh t`ly khy nmwN myN sb sy "
+    },
+    {
+      "language": "Urdu",
+      "language_code": "ur",
+      "language_slug": "urdu",
+      "translation_name": "Taqi",
+      "file": "ur_taqi.json",
+      "path": "data/languages/urdu/ur_taqi.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "shrw` llh khy nm sy jw sb pr mhrbn hy, bht mhrbn hy [1]"
+    },
+    {
+      "language": "Uyghur",
+      "language_code": "ug",
+      "language_slug": "uyghur",
+      "translation_name": "Mokhtasar",
+      "file": "ug_mokhtasar.json",
+      "path": "data/languages/uyghur/ug_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "y'llhn~ng y'~sm~n~ z~k~r q~l~sh b~laen baer~kaet t~laep vae y'un~ngd~n yrdaem swrp qury'n kaer~mn~ y'wqushn~ bshlymaen. <<bismi 'llWahi 'lrWaHmani 'lrWaHiymi / b~sm~llh~rraehmn~rraeh~ym>> dgaen y'yaet y'llhn~ng gyuzael y"
+    },
+    {
+      "language": "Uyghur",
+      "language_code": "ug",
+      "language_slug": "uyghur",
+      "translation_name": "Saleh",
+      "file": "ug_saleh.json",
+      "path": "data/languages/uyghur/ug_saleh.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "nhy~t~ shaepqaetl~k vae mhr~bn y'llhn~ng y'~sm~ b~laen bshlymaen[1]."
+    },
+    {
+      "language": "Uyghur",
+      "language_code": "ug",
+      "language_slug": "uyghur",
+      "translation_name": "Yousuf",
+      "file": "ug_yousuf.json",
+      "path": "data/languages/uyghur/ug_yousuf.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "nhy~t~ shaepqaetl~k, twl~mu mhr~bn y'llhn~ng y'~sm~ b~laen (bshlymaen)."
+    },
+    {
+      "language": "Uzbek",
+      "language_code": "uz",
+      "language_slug": "uzbek",
+      "translation_name": "Mansour",
+      "file": "uz_mansour.json",
+      "path": "data/languages/uzbek/uz_mansour.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Mekh'ribon va rakh'mli Allokh' nomi bilan (boshlaiman)."
+    },
+    {
+      "language": "Uzbek",
+      "language_code": "uz",
+      "language_slug": "uzbek",
+      "translation_name": "Mokhtasar",
+      "file": "uz_mokhtasar.json",
+      "path": "data/languages/uzbek/uz_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "K'ur'on uk'ishni Allokh'ning nomi bilan, U Zotdan madad surab, U Zotning tabarruk nomini tilga olib boshlaiman. Bismillakh' Allokh'ning guzal nomlaridan uchtasini uz ichiga oladi. Ular: 1 - Allokh'. Ia'ni, kh'ak'ik'ii ma"
+    },
+    {
+      "language": "Uzbek",
+      "language_code": "uz",
+      "language_slug": "uzbek",
+      "translation_name": "Rwwad",
+      "file": "uz_rwwad.json",
+      "path": "data/languages/uzbek/uz_rwwad.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Mekh'ribon va Rakh'mli Allokh' nomi bilan (boshlaiman)."
+    },
+    {
+      "language": "Uzbek",
+      "language_code": "uz",
+      "language_slug": "uzbek",
+      "translation_name": "Yusuf",
+      "file": "uz_yusuf.json",
+      "path": "data/languages/uzbek/uz_yusuf.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Mekh'ribon va rakh'mli Allokh'ning nomi bilan boshlaiman. (Allokh' taolo uz kitobini \"bismillakh'\" bilan boshlagani musulmonlarga kh'am urnak, ular kh'am doim uz suzlarini va ishlarini \"bismillakh'\" bilan boshlamok'lari "
+    }
+  ],
+  "bengali_package": {
+    "path": "data/bengali",
+    "manifest": "data/bengali/manifest.json",
+    "combined_translation_rows": 31180,
+    "word_by_word_entries": 83664
+  },
+  "quality_statuses": {
+    "reviewed-draft": "Best current machine transliteration set; still not a scholarly edition.",
+    "draft": "Readable draft output that should be sampled before production use.",
+    "needs-review": "Useful for experimentation, but needs language-aware review."
+  },
+  "credits": [
+    "QUL",
+    "QuranENC"
+  ]
+}

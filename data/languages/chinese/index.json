@@ -1,0 +1,20 @@
+{
+  "language": "Chinese",
+  "language_code": "zh",
+  "language_slug": "chinese",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Chinese",
+      "language_code": "zh",
+      "language_slug": "chinese",
+      "translation_name": "Jian",
+      "file": "zh_jian.json",
+      "path": "data/languages/chinese/zh_jian.json",
+      "rows": 6236,
+      "original_script": "Chinese characters",
+      "quality_status": "draft",
+      "sample": "Feng Zhi Ren Zhi Ci De An La Zhi Ming"
+    }
+  ]
+}

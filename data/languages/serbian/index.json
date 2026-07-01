@@ -1,0 +1,32 @@
+{
+  "language": "Serbian",
+  "language_code": "sr",
+  "language_slug": "serbian",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Serbian",
+      "language_code": "sr",
+      "language_slug": "serbian",
+      "translation_name": "Mokhtasar",
+      "file": "sr_mokhtasar.json",
+      "path": "data/languages/serbian/sr_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Pochinjem svoje uchenje Kur'ana imenom Allakha, od Njega trazhetshi snagu za to, i trazhetshi Njegov blagoslov spominjutshi Njegovo ime. Bismilakh (u ime Allakha) sadrzhi tri Allakhova lepa imena: 1. Allakh, tj. Onaj Koj"
+    },
+    {
+      "language": "Serbian",
+      "language_code": "sr",
+      "language_slug": "serbian",
+      "translation_name": "Rowwad",
+      "file": "sr_rowwad.json",
+      "path": "data/languages/serbian/sr_rowwad.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "U ime Allakha, Milostivog, Samilosnog."
+    }
+  ]
+}

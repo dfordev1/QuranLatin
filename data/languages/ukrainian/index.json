@@ -1,0 +1,20 @@
+{
+  "language": "Ukrainian",
+  "language_code": "uk",
+  "language_slug": "ukrainian",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Ukrainian",
+      "language_code": "uk",
+      "language_slug": "ukrainian",
+      "translation_name": "Mikhailo",
+      "file": "uk_mikhailo.json",
+      "path": "data/languages/ukrainian/uk_mikhailo.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Im'iam Allaga Milostivogo, Miloserdnogo!"
+    }
+  ]
+}

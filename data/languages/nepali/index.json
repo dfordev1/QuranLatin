@@ -1,0 +1,32 @@
+{
+  "language": "Nepali",
+  "language_code": "ne",
+  "language_slug": "nepali",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Nepali",
+      "language_code": "ne",
+      "language_slug": "nepali",
+      "translation_name": "Islamicsangh",
+      "file": "ne_islamicsangh.json",
+      "path": "data/languages/nepali/ne_islamicsangh.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "zuru atyanta karuNAmaya, parama dayAlu allAhako nAmabATa |"
+    },
+    {
+      "language": "Nepali",
+      "language_code": "ne",
+      "language_slug": "nepali",
+      "translation_name": "Mokhtasar",
+      "file": "ne_mokhtasar.json",
+      "path": "data/languages/nepali/ne_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "1) ma allAha taAlAko nAma liMdai uhA~ko maddata mAgdai ra barakata khojdai kurAnako pATha zubhArambha gardachu | bismillAhamA allAhakA 3 vaTA uttama nAmaharUko ullekha bhaeko cha, tI nimnalikhita hun; ka) ‘allAha’ satya "
+    }
+  ]
+}

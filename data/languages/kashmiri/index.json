@@ -1,0 +1,20 @@
+{
+  "language": "Kashmiri",
+  "language_code": "kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
+  "language_slug": "kashmiri",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Kashmiri",
+      "language_code": "kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
+      "language_slug": "kashmiri",
+      "translation_name": "Bayanul Furqan(Koshur Quran)",
+      "file": "kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
+      "path": "data/languages/kashmiri/kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "llh t`ly s'ndi nw' sintY yus by nth mhr bn th' rHm khr n wwl chhu"
+    }
+  ]
+}

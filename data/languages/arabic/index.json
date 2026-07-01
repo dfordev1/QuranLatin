@@ -1,0 +1,20 @@
+{
+  "language": "Arabic",
+  "language_code": "ar",
+  "language_slug": "arabic",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Arabic",
+      "language_code": "ar",
+      "language_slug": "arabic",
+      "translation_name": "Mokhtasar",
+      "file": "ar_mokhtasar.json",
+      "path": "data/languages/arabic/ar_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "bsm llh 'bd' qr@ lqran, mst`ynan bh t`l~ mtbrkan bdhkr smh. wqd tDmnt lbsml@ thlth@ mn 'sm llh lHsn~, why: 1 - <<llh>>; 'y: lm`bwd bHq, whw 'khS 'sm llh t`l~, wl ysm~ bh Gyrh sbHnh. 2 - <<lrWaHman>>; 'y: dhw lrHm@ lws`@."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "language": "Korean",
+  "language_code": "ko",
+  "language_slug": "korean",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Korean",
+      "language_code": "ko",
+      "language_slug": "korean",
+      "translation_name": "Korean",
+      "file": "ko_korean.json",
+      "path": "data/languages/korean/ko_korean.json",
+      "rows": 6236,
+      "original_script": "Hangul script",
+      "quality_status": "draft",
+      "sample": "jabirousigo jaaerousin hananimyi ireumeuro"
+    }
+  ]
+}

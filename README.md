@@ -1,35 +1,74 @@
 # QuranLatin
 
-Latin-script Quran datasets, organized for publishing and reuse.
+QuranLatin is a public JSON library of Quran translation texts converted into Latin letters. It helps readers, students, and app builders browse translations from many languages even when the original writing system is hard for them to read or render.
 
-## Browse the Data
+This is transliteration of translation text. It is not Arabic recitation transliteration, and it is not a new Quran translation.
 
-- Open the landing page: [`index.html`](./index.html)
-- Repository manifest: [`manifest.json`](./manifest.json)
-- Bengali package manifest: [`data/bengali/manifest.json`](./data/bengali/manifest.json)
-- Transliteration bundle manifest: [`data/transliterations/manifest.json`](./data/transliterations/manifest.json)
+## Start Here
 
-## Packages
+- Public catalog: [`index.json`](./index.json)
+- Browse page: [`index.html`](./index.html)
+- Language folders: [`data/languages`](./data/languages)
+- Internal processing notes: [`data/internal`](./data/internal)
 
-| Package | Location | Notes |
-| --- | --- | --- |
-| Bengali Package | [`data/bengali`](./data/bengali) | 5 verse-translation packs plus 1 word-by-word pack |
-| Transliteration Bundle | [`data/transliterations`](./data/transliterations) | 89 cleaned Latin transliteration JSON files |
+## What Is Inside
 
-## Transliteration Bundle
+| Item | Count |
+| --- | ---: |
+| Languages | 44 |
+| Translation JSON files | 89 |
+| Verse rows per complete file | 6,236 |
 
-The bundle is organized by wave:
+Each language has its own folder:
 
-- [`data/transliterations/wave-1`](./data/transliterations/wave-1)
-- [`data/transliterations/wave-2`](./data/transliterations/wave-2)
-- [`data/transliterations/wave-3`](./data/transliterations/wave-3)
+```text
+data/languages/
+  arabic/
+  bengali/
+  hindi/
+  persian/
+  russian/
+  urdu/
+```
 
-## Quality Notes
+Each folder contains the ready-to-use JSON files for that language plus a small `index.json`.
 
-- JSON files in this repository are cleaned of URLs and web-link fields.
-- Draft files that failed review were excluded from the publish-ready bundle.
-- Some files may still benefit from expert linguistic review before scholarly use.
+## Use The Data
+
+```js
+const res = await fetch("data/languages/urdu/ur_mokhtasar.json");
+const data = await res.json();
+console.log(data.translations[0]);
+```
+
+Every translation file follows the same basic shape:
+
+```json
+{
+  "source": {},
+  "row_count": 6236,
+  "transliteration": {},
+  "translations": [
+    {
+      "sura": 1,
+      "aya": 1,
+      "translation": "..."
+    }
+  ]
+}
+```
+
+## Quality Labels
+
+The public catalog includes a `quality_status` for every JSON file.
+
+| Status | Meaning |
+| --- | --- |
+| `reviewed-draft` | Best current machine transliteration set, still not a scholarly edition |
+| `draft` | Readable draft output that should be sampled before production use |
+| `needs-review` | Useful for experimentation, but needs language-aware review |
 
 ## Credits
 
-QUL and QuranENC.
+Source data credits: QUL and QuranENC.
+

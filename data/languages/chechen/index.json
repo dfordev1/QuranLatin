@@ -1,0 +1,20 @@
+{
+  "language": "Chechen",
+  "language_code": "ce",
+  "language_slug": "chechen",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Chechen",
+      "language_code": "ce",
+      "language_slug": "chechen",
+      "translation_name": "Magomed Magomedov",
+      "file": "chechen-ddf46a41f63504bc24c0eae68714d53f.json",
+      "path": "data/languages/chechen/chechen-ddf46a41f63504bc24c0eae68714d53f.json",
+      "rows": 6030,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Sha sov k'inkhetame a, k'inkhetame a volchu Delan tsIartsa."
+    }
+  ]
+}

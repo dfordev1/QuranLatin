@@ -59,7 +59,7 @@
   "files": [
     {
       "file": "as_rafeeq.json",
-      "path": "data/transliterations/wave-1/as_rafeeq.json",
+      "path": "data/languages/assamese/as_rafeeq.json",
       "wave": 1,
       "script": "bengali",
       "row_count": 6236,
@@ -75,11 +75,12 @@
         "script": "bengali",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/assamese/as_rafeeq.json"
     },
     {
       "file": "bn_bayaan.json",
-      "path": "data/transliterations/wave-1/bn_bayaan.json",
+      "path": "data/languages/bengali/bn_bayaan.json",
       "wave": 1,
       "script": "bengali",
       "row_count": 6236,
@@ -95,11 +96,12 @@
         "script": "bengali",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/bengali/bn_bayaan.json"
     },
     {
       "file": "bn_fozlur.json",
-      "path": "data/transliterations/wave-1/bn_fozlur.json",
+      "path": "data/languages/bengali/bn_fozlur.json",
       "wave": 1,
       "script": "bengali",
       "row_count": 6236,
@@ -115,11 +117,12 @@
         "script": "bengali",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/bengali/bn_fozlur.json"
     },
     {
       "file": "bn_ifaba.json",
-      "path": "data/transliterations/wave-1/bn_ifaba.json",
+      "path": "data/languages/bengali/bn_ifaba.json",
       "wave": 1,
       "script": "bengali",
       "row_count": 6236,
@@ -135,11 +138,12 @@
         "script": "bengali",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/bengali/bn_ifaba.json"
     },
     {
       "file": "bn_mkhan.json",
-      "path": "data/transliterations/wave-1/bn_mkhan.json",
+      "path": "data/languages/bengali/bn_mkhan.json",
       "wave": 1,
       "script": "bengali",
       "row_count": 6236,
@@ -155,11 +159,12 @@
         "script": "bengali",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/bengali/bn_mkhan.json"
     },
     {
       "file": "bn_mujibur.json",
-      "path": "data/transliterations/wave-1/bn_mujibur.json",
+      "path": "data/languages/bengali/bn_mujibur.json",
       "wave": 1,
       "script": "bengali",
       "row_count": 6236,
@@ -175,11 +180,12 @@
         "script": "bengali",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/bengali/bn_mujibur.json"
     },
     {
       "file": "bn_sean.json",
-      "path": "data/transliterations/wave-1/bn_sean.json",
+      "path": "data/languages/bengali/bn_sean.json",
       "wave": 1,
       "script": "bengali",
       "row_count": 6236,
@@ -195,11 +201,12 @@
         "script": "bengali",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/bengali/bn_sean.json"
     },
     {
       "file": "bn_taisirul.json",
-      "path": "data/transliterations/wave-1/bn_taisirul.json",
+      "path": "data/languages/bengali/bn_taisirul.json",
       "wave": 1,
       "script": "bengali",
       "row_count": 6236,
@@ -215,11 +222,12 @@
         "script": "bengali",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/bengali/bn_taisirul.json"
     },
     {
       "file": "bn_taqi.json",
-      "path": "data/transliterations/wave-1/bn_taqi.json",
+      "path": "data/languages/bengali/bn_taqi.json",
       "wave": 1,
       "script": "bengali",
       "row_count": 6236,
@@ -235,11 +243,12 @@
         "script": "bengali",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/bengali/bn_taqi.json"
     },
     {
       "file": "belarusian_krivtsov.json",
-      "path": "data/transliterations/wave-1/belarusian_krivtsov.json",
+      "path": "data/languages/belarusian/belarusian_krivtsov.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -256,11 +265,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/belarusian/belarusian_krivtsov.json"
     },
     {
       "file": "bg_translation.json",
-      "path": "data/transliterations/wave-1/bg_translation.json",
+      "path": "data/languages/bulgarian/bg_translation.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -276,11 +286,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/bulgarian/bg_translation.json"
     },
     {
       "file": "chechen-ddf46a41f63504bc24c0eae68714d53f.json",
-      "path": "data/transliterations/wave-1/chechen-ddf46a41f63504bc24c0eae68714d53f.json",
+      "path": "data/languages/chechen/chechen-ddf46a41f63504bc24c0eae68714d53f.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6030,
@@ -295,11 +306,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/chechen/chechen-ddf46a41f63504bc24c0eae68714d53f.json"
     },
     {
       "file": "kk_altai.json",
-      "path": "data/transliterations/wave-1/kk_altai.json",
+      "path": "data/languages/kazakh/kk_altai.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -315,11 +327,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/kazakh/kk_altai.json"
     },
     {
       "file": "kk_altai_assoc.json",
-      "path": "data/transliterations/wave-1/kk_altai_assoc.json",
+      "path": "data/languages/kazakh/kk_altai_assoc.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -335,11 +348,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/kazakh/kk_altai_assoc.json"
     },
     {
       "file": "ky_abdalkhaleq.json",
-      "path": "data/transliterations/wave-1/ky_abdalkhaleq.json",
+      "path": "data/languages/kyrgyz/ky_abdalkhaleq.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -355,11 +369,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/kyrgyz/ky_abdalkhaleq.json"
     },
     {
       "file": "ky_mokhtasar.json",
-      "path": "data/transliterations/wave-1/ky_mokhtasar.json",
+      "path": "data/languages/kyrgyz/ky_mokhtasar.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -375,11 +390,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/kyrgyz/ky_mokhtasar.json"
     },
     {
       "file": "mk_Macedonianscholars.json",
-      "path": "data/transliterations/wave-1/mk_Macedonianscholars.json",
+      "path": "data/languages/macedonian/mk_Macedonianscholars.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -395,11 +411,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/macedonian/mk_Macedonianscholars.json"
     },
     {
       "file": "ru_abuadel.json",
-      "path": "data/transliterations/wave-1/ru_abuadel.json",
+      "path": "data/languages/russian/ru_abuadel.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -415,11 +432,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/russian/ru_abuadel.json"
     },
     {
       "file": "ru_kuliev.json",
-      "path": "data/transliterations/wave-1/ru_kuliev.json",
+      "path": "data/languages/russian/ru_kuliev.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -435,11 +453,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/russian/ru_kuliev.json"
     },
     {
       "file": "ru_mokhtasar.json",
-      "path": "data/transliterations/wave-1/ru_mokhtasar.json",
+      "path": "data/languages/russian/ru_mokhtasar.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -455,11 +474,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/russian/ru_mokhtasar.json"
     },
     {
       "file": "sr_mokhtasar.json",
-      "path": "data/transliterations/wave-1/sr_mokhtasar.json",
+      "path": "data/languages/serbian/sr_mokhtasar.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -475,11 +495,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/serbian/sr_mokhtasar.json"
     },
     {
       "file": "sr_rowwad.json",
-      "path": "data/transliterations/wave-1/sr_rowwad.json",
+      "path": "data/languages/serbian/sr_rowwad.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -495,11 +516,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/serbian/sr_rowwad.json"
     },
     {
       "file": "tg_arifi.json",
-      "path": "data/transliterations/wave-1/tg_arifi.json",
+      "path": "data/languages/tajik/tg_arifi.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -515,11 +537,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/tajik/tg_arifi.json"
     },
     {
       "file": "tg_mokhtasar.json",
-      "path": "data/transliterations/wave-1/tg_mokhtasar.json",
+      "path": "data/languages/tajik/tg_mokhtasar.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -535,11 +558,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/tajik/tg_mokhtasar.json"
     },
     {
       "file": "tt_yakub.json",
-      "path": "data/transliterations/wave-1/tt_yakub.json",
+      "path": "data/languages/tatar/tt_yakub.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -555,11 +579,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/tatar/tt_yakub.json"
     },
     {
       "file": "uk_mikhailo.json",
-      "path": "data/transliterations/wave-1/uk_mikhailo.json",
+      "path": "data/languages/ukrainian/uk_mikhailo.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -575,11 +600,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/ukrainian/uk_mikhailo.json"
     },
     {
       "file": "uz_mansour.json",
-      "path": "data/transliterations/wave-1/uz_mansour.json",
+      "path": "data/languages/uzbek/uz_mansour.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -595,11 +621,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/uzbek/uz_mansour.json"
     },
     {
       "file": "uz_mokhtasar.json",
-      "path": "data/transliterations/wave-1/uz_mokhtasar.json",
+      "path": "data/languages/uzbek/uz_mokhtasar.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -615,11 +642,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/uzbek/uz_mokhtasar.json"
     },
     {
       "file": "uz_rwwad.json",
-      "path": "data/transliterations/wave-1/uz_rwwad.json",
+      "path": "data/languages/uzbek/uz_rwwad.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -635,11 +663,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/uzbek/uz_rwwad.json"
     },
     {
       "file": "uz_yusuf.json",
-      "path": "data/transliterations/wave-1/uz_yusuf.json",
+      "path": "data/languages/uzbek/uz_yusuf.json",
       "wave": 1,
       "script": "cyrillic",
       "row_count": 6236,
@@ -655,11 +684,12 @@
         "script": "cyrillic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/uzbek/uz_yusuf.json"
     },
     {
       "file": "hi_farooq.json",
-      "path": "data/transliterations/wave-1/hi_farooq.json",
+      "path": "data/languages/hindi/hi_farooq.json",
       "wave": 1,
       "script": "devanagari",
       "row_count": 6236,
@@ -675,11 +705,12 @@
         "script": "devanagari",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/hindi/hi_farooq.json"
     },
     {
       "file": "hi_mokhtasar.json",
-      "path": "data/transliterations/wave-1/hi_mokhtasar.json",
+      "path": "data/languages/hindi/hi_mokhtasar.json",
       "wave": 1,
       "script": "devanagari",
       "row_count": 6236,
@@ -695,11 +726,12 @@
         "script": "devanagari",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/hindi/hi_mokhtasar.json"
     },
     {
       "file": "hi_nadwi.json",
-      "path": "data/transliterations/wave-1/hi_nadwi.json",
+      "path": "data/languages/hindi/hi_nadwi.json",
       "wave": 1,
       "script": "devanagari",
       "row_count": 6236,
@@ -715,11 +747,12 @@
         "script": "devanagari",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/hindi/hi_nadwi.json"
     },
     {
       "file": "hi_omari.json",
-      "path": "data/transliterations/wave-1/hi_omari.json",
+      "path": "data/languages/hindi/hi_omari.json",
       "wave": 1,
       "script": "devanagari",
       "row_count": 6236,
@@ -735,11 +768,12 @@
         "script": "devanagari",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/hindi/hi_omari.json"
     },
     {
       "file": "marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
-      "path": "data/transliterations/wave-1/marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
+      "path": "data/languages/marathi/marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
       "wave": 1,
       "script": "devanagari",
       "row_count": 6236,
@@ -754,11 +788,12 @@
         "script": "devanagari",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/marathi/marathi-aeba9c5df8546756ec3c7599c285b1b9.json"
     },
     {
       "file": "marathi_ansari.json",
-      "path": "data/transliterations/wave-1/marathi_ansari.json",
+      "path": "data/languages/marathi/marathi_ansari.json",
       "wave": 1,
       "script": "devanagari",
       "row_count": 6236,
@@ -775,11 +810,12 @@
         "script": "devanagari",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/marathi/marathi_ansari.json"
     },
     {
       "file": "ne_islamicsangh.json",
-      "path": "data/transliterations/wave-1/ne_islamicsangh.json",
+      "path": "data/languages/nepali/ne_islamicsangh.json",
       "wave": 1,
       "script": "devanagari",
       "row_count": 6236,
@@ -795,11 +831,12 @@
         "script": "devanagari",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/nepali/ne_islamicsangh.json"
     },
     {
       "file": "ne_mokhtasar.json",
-      "path": "data/transliterations/wave-1/ne_mokhtasar.json",
+      "path": "data/languages/nepali/ne_mokhtasar.json",
       "wave": 1,
       "script": "devanagari",
       "row_count": 6236,
@@ -815,11 +852,12 @@
         "script": "devanagari",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/nepali/ne_mokhtasar.json"
     },
     {
       "file": "am_mokhtasar.json",
-      "path": "data/transliterations/wave-1/am_mokhtasar.json",
+      "path": "data/languages/amharic/am_mokhtasar.json",
       "wave": 1,
       "script": "ethiopic",
       "row_count": 6236,
@@ -835,11 +873,12 @@
         "script": "ethiopic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/amharic/am_mokhtasar.json"
     },
     {
       "file": "am_sadiq.json",
-      "path": "data/transliterations/wave-1/am_sadiq.json",
+      "path": "data/languages/amharic/am_sadiq.json",
       "wave": 1,
       "script": "ethiopic",
       "row_count": 6236,
@@ -855,11 +894,12 @@
         "script": "ethiopic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/amharic/am_sadiq.json"
     },
     {
       "file": "georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
-      "path": "data/transliterations/wave-1/georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
+      "path": "data/languages/georgian/georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
       "wave": 1,
       "script": "georgian",
       "row_count": 899,
@@ -874,11 +914,12 @@
         "script": "georgian",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/georgian/georgian-472bf122b5fc3e180ed13bfc2b381a72.json"
     },
     {
       "file": "georgian_rwwad.json",
-      "path": "data/transliterations/wave-1/georgian_rwwad.json",
+      "path": "data/languages/georgian/georgian_rwwad.json",
       "wave": 1,
       "script": "georgian",
       "row_count": 6236,
@@ -895,11 +936,12 @@
         "script": "georgian",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/georgian/georgian_rwwad.json"
     },
     {
       "file": "greek-3a6985a5c88226187d5a4a770da7469c.json",
-      "path": "data/transliterations/wave-1/greek-3a6985a5c88226187d5a4a770da7469c.json",
+      "path": "data/languages/greek/greek-3a6985a5c88226187d5a4a770da7469c.json",
       "wave": 1,
       "script": "greek",
       "row_count": 6236,
@@ -914,11 +956,12 @@
         "script": "greek",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/greek/greek-3a6985a5c88226187d5a4a770da7469c.json"
     },
     {
       "file": "greek_rwwad.json",
-      "path": "data/transliterations/wave-1/greek_rwwad.json",
+      "path": "data/languages/greek/greek_rwwad.json",
       "wave": 1,
       "script": "greek",
       "row_count": 6236,
@@ -935,11 +978,12 @@
         "script": "greek",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/greek/greek_rwwad.json"
     },
     {
       "file": "gu_omari.json",
-      "path": "data/transliterations/wave-1/gu_omari.json",
+      "path": "data/languages/gujarati/gu_omari.json",
       "wave": 1,
       "script": "gujarati",
       "row_count": 6236,
@@ -955,11 +999,12 @@
         "script": "gujarati",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/gujarati/gu_omari.json"
     },
     {
       "file": "punjabi_arif.json",
-      "path": "data/transliterations/wave-1/punjabi_arif.json",
+      "path": "data/languages/punjabi/punjabi_arif.json",
       "wave": 1,
       "script": "gurmukhi",
       "row_count": 6236,
@@ -976,11 +1021,12 @@
         "script": "gurmukhi",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/punjabi/punjabi_arif.json"
     },
     {
       "file": "ko_korean.json",
-      "path": "data/transliterations/wave-1/ko_korean.json",
+      "path": "data/languages/korean/ko_korean.json",
       "wave": 1,
       "script": "hangul",
       "row_count": 6236,
@@ -996,11 +1042,12 @@
         "script": "hangul",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/korean/ko_korean.json"
     },
     {
       "file": "he_darussalam.json",
-      "path": "data/transliterations/wave-1/he_darussalam.json",
+      "path": "data/languages/hebrew/he_darussalam.json",
       "wave": 1,
       "script": "hebrew",
       "row_count": 6236,
@@ -1016,11 +1063,12 @@
         "script": "hebrew",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/hebrew/he_darussalam.json"
     },
     {
       "file": "kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
-      "path": "data/transliterations/wave-1/kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
+      "path": "data/languages/kannada/kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
       "wave": 1,
       "script": "kannada",
       "row_count": 6236,
@@ -1035,11 +1083,12 @@
         "script": "kannada",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/kannada/kannada-9f4798e061a3e97f6b3f59bbe28862e5.json"
     },
     {
       "file": "kannada_hamza.json",
-      "path": "data/transliterations/wave-1/kannada_hamza.json",
+      "path": "data/languages/kannada/kannada_hamza.json",
       "wave": 1,
       "script": "kannada",
       "row_count": 6236,
@@ -1056,11 +1105,12 @@
         "script": "kannada",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/kannada/kannada_hamza.json"
     },
     {
       "file": "ml_abdulhameed.json",
-      "path": "data/transliterations/wave-1/ml_abdulhameed.json",
+      "path": "data/languages/malayalam/ml_abdulhameed.json",
       "wave": 1,
       "script": "malayalam",
       "row_count": 6236,
@@ -1076,11 +1126,12 @@
         "script": "malayalam",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/malayalam/ml_abdulhameed.json"
     },
     {
       "file": "ml_karakunnu.json",
-      "path": "data/transliterations/wave-1/ml_karakunnu.json",
+      "path": "data/languages/malayalam/ml_karakunnu.json",
       "wave": 1,
       "script": "malayalam",
       "row_count": 6236,
@@ -1096,11 +1147,12 @@
         "script": "malayalam",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/malayalam/ml_karakunnu.json"
     },
     {
       "file": "si_mahir.json",
-      "path": "data/transliterations/wave-1/si_mahir.json",
+      "path": "data/languages/sinhala/si_mahir.json",
       "wave": 1,
       "script": "sinhala",
       "row_count": 6236,
@@ -1116,11 +1168,12 @@
         "script": "sinhala",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/sinhala/si_mahir.json"
     },
     {
       "file": "si_mokhtasar.json",
-      "path": "data/transliterations/wave-1/si_mokhtasar.json",
+      "path": "data/languages/sinhala/si_mokhtasar.json",
       "wave": 1,
       "script": "sinhala",
       "row_count": 6236,
@@ -1136,11 +1189,12 @@
         "script": "sinhala",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/sinhala/si_mokhtasar.json"
     },
     {
       "file": "ta_baqavi.json",
-      "path": "data/transliterations/wave-1/ta_baqavi.json",
+      "path": "data/languages/tamil/ta_baqavi.json",
       "wave": 1,
       "script": "tamil",
       "row_count": 6236,
@@ -1156,11 +1210,12 @@
         "script": "tamil",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/tamil/ta_baqavi.json"
     },
     {
       "file": "ta_jantrust.json",
-      "path": "data/transliterations/wave-1/ta_jantrust.json",
+      "path": "data/languages/tamil/ta_jantrust.json",
       "wave": 1,
       "script": "tamil",
       "row_count": 6236,
@@ -1176,11 +1231,12 @@
         "script": "tamil",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/tamil/ta_jantrust.json"
     },
     {
       "file": "ta_mokhtasar.json",
-      "path": "data/transliterations/wave-1/ta_mokhtasar.json",
+      "path": "data/languages/tamil/ta_mokhtasar.json",
       "wave": 1,
       "script": "tamil",
       "row_count": 6236,
@@ -1196,11 +1252,12 @@
         "script": "tamil",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/tamil/ta_mokhtasar.json"
     },
     {
       "file": "ta_omar_sheriff.json",
-      "path": "data/transliterations/wave-1/ta_omar_sheriff.json",
+      "path": "data/languages/tamil/ta_omar_sheriff.json",
       "wave": 1,
       "script": "tamil",
       "row_count": 6236,
@@ -1216,11 +1273,12 @@
         "script": "tamil",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/tamil/ta_omar_sheriff.json"
     },
     {
       "file": "te_bayan.json",
-      "path": "data/transliterations/wave-1/te_bayan.json",
+      "path": "data/languages/telugu/te_bayan.json",
       "wave": 1,
       "script": "telugu",
       "row_count": 6236,
@@ -1236,11 +1294,12 @@
         "script": "telugu",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/telugu/te_bayan.json"
     },
     {
       "file": "te_divya.json",
-      "path": "data/transliterations/wave-1/te_divya.json",
+      "path": "data/languages/telugu/te_divya.json",
       "wave": 1,
       "script": "telugu",
       "row_count": 6236,
@@ -1256,11 +1315,12 @@
         "script": "telugu",
         "target_script": "latin",
         "method": "indic_transliteration"
-      }
+      },
+      "public_path": "data/languages/telugu/te_divya.json"
     },
     {
       "file": "th_fahad.json",
-      "path": "data/transliterations/wave-1/th_fahad.json",
+      "path": "data/languages/thai/th_fahad.json",
       "wave": 1,
       "script": "thai",
       "row_count": 6236,
@@ -1276,11 +1336,12 @@
         "script": "thai",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/thai/th_fahad.json"
     },
     {
       "file": "th_mokhtasar.json",
-      "path": "data/transliterations/wave-1/th_mokhtasar.json",
+      "path": "data/languages/thai/th_mokhtasar.json",
       "wave": 1,
       "script": "thai",
       "row_count": 6236,
@@ -1296,11 +1357,12 @@
         "script": "thai",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/thai/th_mokhtasar.json"
     },
     {
       "file": "ar_mokhtasar.json",
-      "path": "data/transliterations/wave-2/ar_mokhtasar.json",
+      "path": "data/languages/arabic/ar_mokhtasar.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1316,11 +1378,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/arabic/ar_mokhtasar.json"
     },
     {
       "file": "dari_anwar.json",
-      "path": "data/transliterations/wave-2/dari_anwar.json",
+      "path": "data/languages/dari/dari_anwar.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1336,11 +1399,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/dari/dari_anwar.json"
     },
     {
       "file": "fa_husseintaji.json",
-      "path": "data/transliterations/wave-2/fa_husseintaji.json",
+      "path": "data/languages/persian/fa_husseintaji.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1356,11 +1420,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/persian/fa_husseintaji.json"
     },
     {
       "file": "fa_islamhouse.json",
-      "path": "data/transliterations/wave-2/fa_islamhouse.json",
+      "path": "data/languages/persian/fa_islamhouse.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1376,11 +1441,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/persian/fa_islamhouse.json"
     },
     {
       "file": "fa_mokhtasar.json",
-      "path": "data/transliterations/wave-2/fa_mokhtasar.json",
+      "path": "data/languages/persian/fa_mokhtasar.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1396,11 +1462,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/persian/fa_mokhtasar.json"
     },
     {
       "file": "kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
-      "path": "data/transliterations/wave-2/kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
+      "path": "data/languages/kashmiri/kashmiri-b31848d4d3fa0adef058fe11acf072ed.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1415,11 +1482,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/kashmiri/kashmiri-b31848d4d3fa0adef058fe11acf072ed.json"
     },
     {
       "file": "ku_asan.json",
-      "path": "data/transliterations/wave-2/ku_asan.json",
+      "path": "data/languages/kurdish/ku_asan.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1435,11 +1503,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/kurdish/ku_asan.json"
     },
     {
       "file": "ku_bamoki.json",
-      "path": "data/transliterations/wave-2/ku_bamoki.json",
+      "path": "data/languages/kurdish/ku_bamoki.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1455,11 +1524,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/kurdish/ku_bamoki.json"
     },
     {
       "file": "ku_mokhtasar.json",
-      "path": "data/transliterations/wave-2/ku_mokhtasar.json",
+      "path": "data/languages/kurdish/ku_mokhtasar.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1475,11 +1545,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/kurdish/ku_mokhtasar.json"
     },
     {
       "file": "kurmanji_ismail.json",
-      "path": "data/transliterations/wave-2/kurmanji_ismail.json",
+      "path": "data/languages/kurmanji-kurdish/kurmanji_ismail.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1496,11 +1567,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/kurmanji-kurdish/kurmanji_ismail.json"
     },
     {
       "file": "ps_abdulwali.json",
-      "path": "data/transliterations/wave-2/ps_abdulwali.json",
+      "path": "data/languages/pashto/ps_abdulwali.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1516,11 +1588,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/pashto/ps_abdulwali.json"
     },
     {
       "file": "ps_mokhtasar.json",
-      "path": "data/transliterations/wave-2/ps_mokhtasar.json",
+      "path": "data/languages/pashto/ps_mokhtasar.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1536,11 +1609,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/pashto/ps_mokhtasar.json"
     },
     {
       "file": "ps_rwwad.json",
-      "path": "data/transliterations/wave-2/ps_rwwad.json",
+      "path": "data/languages/pashto/ps_rwwad.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1556,11 +1630,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/pashto/ps_rwwad.json"
     },
     {
       "file": "ps_zakaria.json",
-      "path": "data/transliterations/wave-2/ps_zakaria.json",
+      "path": "data/languages/pashto/ps_zakaria.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1576,11 +1651,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/pashto/ps_zakaria.json"
     },
     {
       "file": "sd_amroti.json",
-      "path": "data/transliterations/wave-2/sd_amroti.json",
+      "path": "data/languages/sindhi/sd_amroti.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1596,11 +1672,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/sindhi/sd_amroti.json"
     },
     {
       "file": "ug_mokhtasar.json",
-      "path": "data/transliterations/wave-2/ug_mokhtasar.json",
+      "path": "data/languages/uyghur/ug_mokhtasar.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1616,11 +1693,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/uyghur/ug_mokhtasar.json"
     },
     {
       "file": "ug_saleh.json",
-      "path": "data/transliterations/wave-2/ug_saleh.json",
+      "path": "data/languages/uyghur/ug_saleh.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1636,11 +1714,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/uyghur/ug_saleh.json"
     },
     {
       "file": "ug_yousuf.json",
-      "path": "data/transliterations/wave-2/ug_yousuf.json",
+      "path": "data/languages/uyghur/ug_yousuf.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1656,11 +1735,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/uyghur/ug_yousuf.json"
     },
     {
       "file": "ur_junagarhi.json",
-      "path": "data/transliterations/wave-2/ur_junagarhi.json",
+      "path": "data/languages/urdu/ur_junagarhi.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1676,11 +1756,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/urdu/ur_junagarhi.json"
     },
     {
       "file": "ur_mokhtasar.json",
-      "path": "data/transliterations/wave-2/ur_mokhtasar.json",
+      "path": "data/languages/urdu/ur_mokhtasar.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1696,11 +1777,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/urdu/ur_mokhtasar.json"
     },
     {
       "file": "ur_taqi.json",
-      "path": "data/transliterations/wave-2/ur_taqi.json",
+      "path": "data/languages/urdu/ur_taqi.json",
       "wave": 2,
       "script": "arabic",
       "row_count": 6236,
@@ -1716,11 +1798,12 @@
         "script": "arabic",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/urdu/ur_taqi.json"
     },
     {
       "file": "zh_jian.json",
-      "path": "data/transliterations/wave-3/zh_jian.json",
+      "path": "data/languages/chinese/zh_jian.json",
       "wave": 3,
       "script": "han",
       "row_count": 6236,
@@ -1736,11 +1819,12 @@
         "script": "han",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/chinese/zh_jian.json"
     },
     {
       "file": "ja_meta.json",
-      "path": "data/transliterations/wave-3/ja_meta.json",
+      "path": "data/languages/japanese/ja_meta.json",
       "wave": 3,
       "script": "hiragana",
       "row_count": 6236,
@@ -1756,11 +1840,12 @@
         "script": "hiragana",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/japanese/ja_meta.json"
     },
     {
       "file": "ja_sato.json",
-      "path": "data/transliterations/wave-3/ja_sato.json",
+      "path": "data/languages/japanese/ja_sato.json",
       "wave": 3,
       "script": "hiragana",
       "row_count": 6236,
@@ -1776,11 +1861,12 @@
         "script": "hiragana",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/japanese/ja_sato.json"
     },
     {
       "file": "km_cambodia.json",
-      "path": "data/transliterations/wave-3/km_cambodia.json",
+      "path": "data/languages/khmer/km_cambodia.json",
       "wave": 3,
       "script": "khmer",
       "row_count": 6236,
@@ -1796,11 +1882,12 @@
         "script": "khmer",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/khmer/km_cambodia.json"
     },
     {
       "file": "dv_bakurube.json",
-      "path": "data/transliterations/wave-3/dv_bakurube.json",
+      "path": "data/languages/dhivehi/dv_bakurube.json",
       "wave": 3,
       "script": "thaana",
       "row_count": 6236,
@@ -1816,11 +1903,12 @@
         "script": "thaana",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/dhivehi/dv_bakurube.json"
     },
     {
       "file": "dv_maldives.json",
-      "path": "data/transliterations/wave-3/dv_maldives.json",
+      "path": "data/languages/dhivehi/dv_maldives.json",
       "wave": 3,
       "script": "thaana",
       "row_count": 6236,
@@ -1836,7 +1924,8 @@
         "script": "thaana",
         "target_script": "latin",
         "method": "unidecode"
-      }
+      },
+      "public_path": "data/languages/dhivehi/dv_maldives.json"
     }
   ],
   "notes": [

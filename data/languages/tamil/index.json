@@ -1,0 +1,56 @@
+{
+  "language": "Tamil",
+  "language_code": "ta",
+  "language_slug": "tamil",
+  "translation_count": 4,
+  "translations": [
+    {
+      "language": "Tamil",
+      "language_code": "ta",
+      "language_slug": "tamil",
+      "translation_name": "Baqavi",
+      "file": "ta_baqavi.json",
+      "path": "data/languages/tamil/ta_baqavi.json",
+      "rows": 6236,
+      "original_script": "Tamil script",
+      "quality_status": "reviewed-draft",
+      "sample": "aLavar2r2a aruLALan2uM, nigharar2r2a an2bhuDhaiyon2umAghiya allAhvin2 dhirubhbhèyarAl (odhughir2en2)"
+    },
+    {
+      "language": "Tamil",
+      "language_code": "ta",
+      "language_slug": "tamil",
+      "translation_name": "Jantrust",
+      "file": "ta_jantrust.json",
+      "path": "data/languages/tamil/ta_jantrust.json",
+      "rows": 6236,
+      "original_script": "Tamil script",
+      "quality_status": "reviewed-draft",
+      "sample": "aLavar2r2a aruLALan2uM, nigharar2r2a an2bhuDhaiyon2umAghiya allAhvin2 dhirubhbhèyarAl(dhuvaGghughir2en2)"
+    },
+    {
+      "language": "Tamil",
+      "language_code": "ta",
+      "language_slug": "tamil",
+      "translation_name": "Mokhtasar",
+      "file": "ta_mokhtasar.json",
+      "path": "data/languages/tamil/ta_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Tamil script",
+      "quality_status": "reviewed-draft",
+      "sample": "allAhviDhaM udhavi dheDhiyavarAghavuM, avan2adhu bhèyaraigh ghUr2uvadhan2 mUlaM aruLvaLadhdhai èdhirbhArdhdhavarAghavuM alghurAn2 odhuvadhai AraMbhaM jhèyghir2en2. \"bhismillAhir rahmAn2ir rahIM\" èn2bhadhu allAhvin2 mUn2r"
+    },
+    {
+      "language": "Tamil",
+      "language_code": "ta",
+      "language_slug": "tamil",
+      "translation_name": "Sheriff",
+      "file": "ta_omar_sheriff.json",
+      "path": "data/languages/tamil/ta_omar_sheriff.json",
+      "rows": 6236,
+      "original_script": "Tamil script",
+      "quality_status": "reviewed-draft",
+      "sample": "bheraruLALan2 bheran2bhALan2 allAhvin2 bhèyarAl."
+    }
+  ]
+}

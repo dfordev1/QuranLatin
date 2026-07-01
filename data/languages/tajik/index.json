@@ -1,0 +1,32 @@
+{
+  "language": "Tajik",
+  "language_code": "tg",
+  "language_slug": "tajik",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Tajik",
+      "language_code": "tg",
+      "language_slug": "tajik",
+      "translation_name": "Arifi",
+      "file": "tg_arifi.json",
+      "path": "data/languages/tajik/tg_arifi.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Ba nomi Khudovandi bakhshandai mekh'rubon."
+    },
+    {
+      "language": "Tajik",
+      "language_code": "tg",
+      "language_slug": "tajik",
+      "translation_name": "Mokhtasar",
+      "file": "tg_mokhtasar.json",
+      "path": "data/languages/tajik/tg_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "1) Bo zikri Khudo tilovati K'ur'onro og'oz bakhshida, bo iodi ismash az U kumak mekhokh'am. \"Bismillokh'i-r-Rakh'moni-r-Rakh'im\" shomili se nomi zeboi Khudo ast: (alaikh'is salom) Allokh': \"Ma'budi barkh'ak'\". In lafzi m"
+    }
+  ]
+}

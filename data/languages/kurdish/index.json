@@ -1,0 +1,44 @@
+{
+  "language": "Kurdish",
+  "language_code": "ku",
+  "language_slug": "kurdish",
+  "translation_count": 3,
+  "translations": [
+    {
+      "language": "Kurdish",
+      "language_code": "ku",
+      "language_slug": "kurdish",
+      "translation_name": "Asan",
+      "file": "ku_asan.json",
+      "path": "data/languages/kurdish/ku_asan.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "bh nwy khwy bhkhshndhy myhrhbn (bh nwy y'hw khwyhy kngy RhHmht w soezw bhzhyyh)."
+    },
+    {
+      "language": "Kurdish",
+      "language_code": "ku",
+      "language_slug": "kurdish",
+      "translation_name": "Bamoki",
+      "file": "ku_bamoki.json",
+      "path": "data/languages/kurdish/ku_bamoki.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "baenwy khwy baekhshndaey myhraebn"
+    },
+    {
+      "language": "Kurdish",
+      "language_code": "ku",
+      "language_slug": "kurdish",
+      "translation_name": "Mokhtasar",
+      "file": "ku_mokhtasar.json",
+      "path": "data/languages/kurdish/ku_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "baenwy khwy gaewrae daest daekhaem baekhwYndny qwry'n, baepsht wpaen baekhwy gaewrae wtaebaeRwkh baenwy pyroezy, (bsm llae lrHmn lrHym) sY nwy pyroezy khwy gaewraey laekhoe grtwwae, y'aewnysh: 1-(llae) wt: paerstrwy baeh"
+    }
+  ]
+}

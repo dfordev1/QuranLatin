@@ -1,0 +1,20 @@
+{
+  "language": "Dari",
+  "language_code": "prs",
+  "language_slug": "dari",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Dari",
+      "language_code": "prs",
+      "language_slug": "dari",
+      "translation_name": "Anwar",
+      "file": "dari_anwar.json",
+      "path": "data/languages/dari/dari_anwar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "Gz my khnm bnm khdy bsyr bkhshndh w zydh mhrbn."
+    }
+  ]
+}

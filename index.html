@@ -3,556 +3,539 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>QuranLatin</title>
+    <title>QuranLatin Catalog</title>
     <meta
       name="description"
-      content="Clean, publish-ready Quran transliteration datasets with organized JSON links and tables."
+      content="Browse Quran translation texts converted into Latin letters."
     />
     <style>
       :root {
         color-scheme: light;
-        --bg: #f4efe4;
-        --bg-alt: #fbf7f0;
-        --panel: rgba(255, 255, 255, 0.82);
-        --panel-strong: #ffffff;
-        --text: #132238;
-        --muted: #5f6b7a;
-        --line: rgba(19, 34, 56, 0.12);
-        --accent: #8a5a2b;
-        --accent-2: #1f6f78;
-        --shadow: 0 24px 80px rgba(40, 28, 10, 0.12);
-        --radius-xl: 30px;
-        --radius-lg: 22px;
-        --radius-md: 16px;
+        --paper: #fbfbf8;
+        --ink: #111827;
+        --muted: #64748b;
+        --line: #d9ded7;
+        --soft: #eef4f1;
+        --panel: #ffffff;
+        --green: #146c5c;
+        --blue: #245c9c;
+        --gold: #a66b16;
+        --red: #a23d3d;
+        --shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
       }
+
       * { box-sizing: border-box; }
-      html { scroll-behavior: smooth; }
+
       body {
         margin: 0;
-        font-family: Georgia, "Times New Roman", Times, serif;
-        background:
-          radial-gradient(circle at top left, rgba(138, 90, 43, 0.18), transparent 30%),
-          radial-gradient(circle at right 20%, rgba(31, 111, 120, 0.14), transparent 26%),
-          linear-gradient(180deg, var(--bg) 0%, var(--bg-alt) 100%);
-        color: var(--text);
+        background: var(--paper);
+        color: var(--ink);
+        font-family: ui-sans-serif, "Segoe UI", Tahoma, sans-serif;
       }
+
       a { color: inherit; text-decoration: none; }
+
       .shell {
-        width: min(1200px, calc(100% - 32px));
+        max-width: 1240px;
         margin: 0 auto;
-        padding: 28px 0 48px;
+        padding: 22px;
       }
-      .hero {
-        position: relative;
-        overflow: hidden;
-        border: 1px solid var(--line);
-        border-radius: var(--radius-xl);
-        background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.82));
-        box-shadow: var(--shadow);
-        padding: 28px;
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        padding: 18px 0;
       }
-      .hero::after {
-        content: "";
-        position: absolute;
-        inset: auto -10% -50% auto;
-        width: 420px;
-        height: 420px;
-        border-radius: 999px;
-        background: radial-gradient(circle, rgba(138, 90, 43, 0.16), transparent 70%);
-        pointer-events: none;
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
       }
-      .eyebrow {
+
+      .mark {
+        width: 44px;
+        height: 44px;
+        display: grid;
+        place-items: center;
+        background: var(--green);
+        color: white;
+        border-radius: 8px;
+        font-weight: 800;
+        letter-spacing: 0;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 1.5rem;
+        letter-spacing: 0;
+      }
+
+      .tagline {
+        margin: 3px 0 0;
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .button {
         display: inline-flex;
         align-items: center;
-        gap: 10px;
-        padding: 8px 12px;
+        justify-content: center;
+        min-height: 40px;
+        padding: 0 14px;
         border: 1px solid var(--line);
-        border-radius: 999px;
-        font-size: 12px;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        color: var(--muted);
-        background: rgba(255,255,255,0.75);
-      }
-      .title {
-        margin: 18px 0 10px;
-        font-size: clamp(2.6rem, 6vw, 5.2rem);
-        line-height: 0.95;
-        letter-spacing: -0.05em;
-      }
-      .subtitle {
-        max-width: 72ch;
-        margin: 0;
-        font-size: 1.05rem;
-        line-height: 1.7;
-        color: var(--muted);
-      }
-      .stats {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 14px;
-        margin-top: 24px;
-      }
-      .stat {
-        border: 1px solid var(--line);
-        border-radius: var(--radius-lg);
-        background: var(--panel);
-        backdrop-filter: blur(10px);
-        padding: 16px;
-      }
-      .stat .label {
-        color: var(--muted);
-        font-size: 0.82rem;
-        text-transform: uppercase;
-        letter-spacing: 0.12em;
-      }
-      .stat .value {
-        margin-top: 8px;
-        font-size: 1.9rem;
-        line-height: 1;
+        border-radius: 8px;
+        background: white;
+        color: var(--ink);
         font-weight: 700;
       }
-      .grid {
+
+      .button.primary {
+        background: var(--green);
+        border-color: var(--green);
+        color: white;
+      }
+
+      .intro {
         display: grid;
-        grid-template-columns: 1.3fr 0.7fr;
+        grid-template-columns: 1.1fr 0.9fr;
         gap: 18px;
+        align-items: stretch;
+        margin-top: 12px;
+      }
+
+      .summary, .explain, .catalog, .side-panel, .bengali {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        box-shadow: var(--shadow);
+      }
+
+      .summary {
+        padding: 24px;
+      }
+
+      .summary h2 {
+        margin: 0;
+        max-width: 780px;
+        font-size: clamp(2rem, 4vw, 3.7rem);
+        line-height: 1.02;
+        letter-spacing: 0;
+      }
+
+      .summary p {
+        margin: 14px 0 0;
+        max-width: 760px;
+        color: var(--muted);
+        font-size: 1.04rem;
+        line-height: 1.7;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
         margin-top: 22px;
       }
-      .card {
+
+      .stat {
         border: 1px solid var(--line);
-        border-radius: var(--radius-xl);
-        background: var(--panel);
-        backdrop-filter: blur(10px);
-        box-shadow: 0 18px 54px rgba(40, 28, 10, 0.06);
-        overflow: hidden;
+        border-radius: 8px;
+        background: var(--soft);
+        padding: 14px;
       }
-      .card-head {
+
+      .stat strong {
+        display: block;
+        font-size: 1.7rem;
+      }
+
+      .stat span {
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .explain {
+        padding: 22px;
+      }
+
+      .explain h3 {
+        margin: 0 0 12px;
+        font-size: 1.05rem;
+      }
+
+      .note-list {
+        display: grid;
+        gap: 12px;
+      }
+
+      .note {
+        border-left: 4px solid var(--green);
+        padding-left: 12px;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 320px;
+        gap: 18px;
+        margin-top: 18px;
+      }
+
+      .head {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 12px;
-        padding: 18px 20px;
+        padding: 16px;
         border-bottom: 1px solid var(--line);
-        background: rgba(255,255,255,0.7);
       }
-      .card-head h2, .card-head h3 {
+
+      .head h2, .head h3 {
         margin: 0;
-        font-size: 1.1rem;
-        letter-spacing: -0.02em;
-      }
-      .card-head p {
-        margin: 4px 0 0;
-        color: var(--muted);
-        font-size: 0.92rem;
-      }
-      .toolbar {
-        padding: 16px 20px 0;
-        display: flex;
-        gap: 12px;
-        flex-wrap: wrap;
-      }
-      .search {
-        flex: 1 1 280px;
-        min-width: 0;
-        border: 1px solid var(--line);
-        border-radius: 999px;
-        padding: 12px 16px;
-        background: rgba(255,255,255,0.9);
-        color: var(--text);
-        font: inherit;
-      }
-      .pill {
-        border: 1px solid var(--line);
-        border-radius: 999px;
-        padding: 11px 14px;
-        background: rgba(255,255,255,0.86);
-        color: var(--muted);
-        font-size: 0.92rem;
-      }
-      .table-wrap {
-        overflow: auto;
-        max-height: 740px;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        min-width: 860px;
-      }
-      thead th {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-        background: #fff9f1;
-        color: var(--muted);
-        text-align: left;
-        font-size: 0.76rem;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        border-bottom: 1px solid var(--line);
-        padding: 14px 16px;
-      }
-      tbody td {
-        border-bottom: 1px solid var(--line);
-        padding: 14px 16px;
-        vertical-align: top;
-        font-size: 0.95rem;
-      }
-      tbody tr:hover { background: rgba(138, 90, 43, 0.05); }
-      .file-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 9px 12px;
-        border-radius: 999px;
-        border: 1px solid rgba(138, 90, 43, 0.22);
-        background: rgba(255, 248, 240, 0.9);
-        color: var(--accent);
-        font-weight: 700;
-        white-space: nowrap;
-      }
-      .meta {
-        color: var(--muted);
-        font-size: 0.9rem;
-        line-height: 1.5;
-      }
-      .section {
-        margin-top: 18px;
-      }
-      .section h3 {
-        margin: 0 0 10px;
         font-size: 1.05rem;
       }
-      .package-list {
-        display: grid;
-        gap: 12px;
-        padding: 16px 20px 20px;
+
+      .head p {
+        margin: 4px 0 0;
+        color: var(--muted);
       }
-      .package {
-        border: 1px solid var(--line);
-        border-radius: var(--radius-lg);
-        background: rgba(255,255,255,0.84);
+
+      .controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
         padding: 14px 16px;
+        border-bottom: 1px solid var(--line);
+        background: #f7faf8;
       }
-      .package h4 {
-        margin: 0;
-        font-size: 1rem;
+
+      .search {
+        flex: 1 1 260px;
+        min-height: 42px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 0 12px;
+        font: inherit;
       }
-      .package .small {
-        margin-top: 6px;
+
+      select {
+        min-height: 42px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 0 12px;
+        background: white;
+        font: inherit;
+      }
+
+      .table-wrap {
+        overflow: auto;
+        max-height: 780px;
+      }
+
+      table {
+        width: 100%;
+        min-width: 980px;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        padding: 13px 14px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        position: sticky;
+        top: 0;
+        background: #f7faf8;
+        color: var(--muted);
+        font-size: 0.78rem;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      tbody tr:hover {
+        background: #f9fbfa;
+      }
+
+      .muted {
         color: var(--muted);
         font-size: 0.92rem;
-        line-height: 1.5;
+        line-height: 1.45;
       }
-      .footer {
-        margin-top: 18px;
-        padding: 16px 4px 0;
-        color: var(--muted);
-        font-size: 0.9rem;
-        line-height: 1.7;
+
+      .sample {
+        max-width: 420px;
+        color: #334155;
+        line-height: 1.55;
       }
-      .hidden { display: none !important; }
-      .badge {
+
+      .status {
         display: inline-flex;
         align-items: center;
-        gap: 8px;
-        padding: 6px 10px;
+        min-height: 26px;
+        padding: 0 9px;
         border-radius: 999px;
-        background: rgba(31, 111, 120, 0.08);
-        color: var(--accent-2);
         font-size: 0.82rem;
-        font-weight: 700;
+        font-weight: 800;
+        white-space: nowrap;
       }
-      @media (max-width: 960px) {
-        .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-        .grid { grid-template-columns: 1fr; }
+
+      .status.reviewed-draft { background: #e7f4ee; color: var(--green); }
+      .status.draft { background: #e9f1fb; color: var(--blue); }
+      .status.needs-review { background: #fff2d8; color: var(--gold); }
+
+      .json-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 34px;
+        padding: 0 11px;
+        border-radius: 8px;
+        background: var(--ink);
+        color: white;
+        font-weight: 800;
+        white-space: nowrap;
       }
+
+      .side-panel {
+        padding: 16px;
+      }
+
+      .language-list {
+        display: grid;
+        gap: 8px;
+        max-height: 520px;
+        overflow: auto;
+        padding-right: 4px;
+      }
+
+      .language-item {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 10px;
+        background: #fff;
+      }
+
+      .language-item strong {
+        font-size: 0.95rem;
+      }
+
+      .language-item span {
+        color: var(--muted);
+        font-size: 0.88rem;
+      }
+
+      .bengali {
+        margin-top: 18px;
+        padding: 18px;
+      }
+
+      .bengali p {
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      @media (max-width: 920px) {
+        .intro, .layout { grid-template-columns: 1fr; }
+        .topbar { align-items: flex-start; flex-direction: column; }
+      }
+
       @media (max-width: 640px) {
-        .shell { width: min(100% - 20px, 1200px); padding-top: 12px; }
-        .hero, .card-head, .package-list, .toolbar { padding-left: 16px; padding-right: 16px; }
-        .hero { padding-top: 22px; padding-bottom: 22px; }
+        .shell { padding: 14px; }
         .stats { grid-template-columns: 1fr; }
-        .title { font-size: 2.35rem; }
+        .summary, .explain { padding: 18px; }
       }
     </style>
   </head>
   <body>
     <main class="shell">
-      <section class="hero">
-        <div class="eyebrow">QuranLatin repository</div>
-        <h1 class="title">Organized Latin Quran datasets.</h1>
-        <p class="subtitle">
-          This repository bundles ready-to-use JSON transliterations, grouped into
-          a legacy Bengali package and a broader multi-language transliteration
-          bundle. Every JSON here is cleaned of URL fields and web links.
-        </p>
-
-        <div class="stats" id="stats">
-          <div class="stat">
-            <div class="label">JSON files</div>
-            <div class="value" data-stat="files">89</div>
-          </div>
-          <div class="stat">
-            <div class="label">Wave 1</div>
-            <div class="value" data-stat="wave1">62</div>
-          </div>
-          <div class="stat">
-            <div class="label">Wave 2</div>
-            <div class="value" data-stat="wave2">21</div>
-          </div>
-          <div class="stat">
-            <div class="label">Wave 3</div>
-            <div class="value" data-stat="wave3">6</div>
+      <header class="topbar">
+        <div class="brand">
+          <div class="mark">QL</div>
+          <div>
+            <h1>QuranLatin</h1>
+            <p class="tagline">Quran translation text converted into Latin letters.</p>
           </div>
         </div>
+        <nav class="actions">
+          <a class="button primary" href="index.json">Public index</a>
+          <a class="button" href="data/languages/">Language data</a>
+          <a class="button" href="data/internal/">Internal notes</a>
+        </nav>
+      </header>
+
+      <section class="intro">
+        <div class="summary">
+          <h2>Read and build with transliterated Quran translations.</h2>
+          <p>
+            QuranLatin is a JSON library for people who want Quran translation
+            text in Latin letters. It is useful for search, apps, study tools,
+            and readers who cannot comfortably read every original script.
+          </p>
+          <div class="stats">
+            <div class="stat"><strong data-stat="languages">44</strong><span>languages</span></div>
+            <div class="stat"><strong data-stat="translations">89</strong><span>translation JSON files</span></div>
+            <div class="stat"><strong>6,236</strong><span>ayah rows in complete files</span></div>
+          </div>
+        </div>
+
+        <aside class="explain">
+          <h3>What this is</h3>
+          <div class="note-list">
+            <div class="note">Translation text rewritten in Latin letters.</div>
+            <div class="note">Ready-to-use JSON grouped by language.</div>
+            <div class="note">Quality labels included for every file.</div>
+          </div>
+          <h3 style="margin-top: 20px;">What this is not</h3>
+          <div class="note-list">
+            <div class="note">Not Arabic recitation transliteration.</div>
+            <div class="note">Not a new Quran translation.</div>
+            <div class="note">Not a scholarly final edition for every language.</div>
+          </div>
+        </aside>
       </section>
 
-      <div class="grid">
-        <section class="card">
-          <div class="card-head">
+      <section class="layout">
+        <div class="catalog">
+          <div class="head">
             <div>
-              <h2>Ready-to-use JSON links</h2>
-              <p>Search, browse, and open every published transliteration file.</p>
+              <h2>Language Catalog</h2>
+              <p>Find a language, preview a sample, and open the JSON.</p>
             </div>
-            <span class="badge" id="bundle-count">Loading</span>
+            <strong id="result-count">Loading</strong>
           </div>
-          <div class="toolbar">
-            <input
-              id="filter"
-              class="search"
-              type="search"
-              placeholder="Filter by language, file, wave, script, or path..."
-              autocomplete="off"
-            />
-            <div class="pill" id="filter-summary">Showing all files</div>
+          <div class="controls">
+            <input id="search" class="search" type="search" placeholder="Search language, translation, script..." />
+            <select id="quality">
+              <option value="">All quality levels</option>
+              <option value="reviewed-draft">Reviewed draft</option>
+              <option value="draft">Draft</option>
+              <option value="needs-review">Needs review</option>
+            </select>
           </div>
           <div class="table-wrap">
             <table>
               <thead>
                 <tr>
-                  <th>Language / Pack</th>
-                  <th>Wave</th>
-                  <th>Script</th>
-                  <th>Rows</th>
-                  <th>File</th>
+                  <th>Language</th>
+                  <th>Translation</th>
+                  <th>Original Script</th>
+                  <th>Quality</th>
+                  <th>Sample</th>
                   <th>JSON</th>
                 </tr>
               </thead>
-              <tbody id="bundle-body">
-                <tr><td colspan="6" class="meta">Loading transliteration bundle…</td></tr>
+              <tbody id="rows">
+                <tr><td colspan="6" class="muted">Loading catalog...</td></tr>
               </tbody>
             </table>
           </div>
-        </section>
+        </div>
 
-        <aside class="card">
-          <div class="card-head">
+        <aside class="side-panel">
+          <div class="head" style="padding: 0 0 12px; border-bottom: 0;">
             <div>
-              <h3>Packages</h3>
-              <p>Two organized data groups in the repo.</p>
+              <h3>Languages</h3>
+              <p>Folders under `data/languages`.</p>
             </div>
           </div>
-          <div class="package-list" id="packages">
-            <div class="package">
-              <h4>Bengali Package</h4>
-              <div class="small">Loading package details…</div>
-            </div>
-            <div class="package">
-              <h4>Transliteration Bundle</h4>
-              <div class="small">Loading package details…</div>
-            </div>
-          </div>
-          <div class="footer">
-            <strong>Credits:</strong> QUL and QuranENC.
-            <br />
-            <strong>Note:</strong> Draft files with failed review were excluded from the publish-ready bundle.
-          </div>
+          <div id="languages" class="language-list"></div>
         </aside>
-      </div>
+      </section>
 
-      <section class="card section">
-        <div class="card-head">
-          <div>
-            <h3>Bengali package index</h3>
-            <p>Legacy Bengali transliteration package with per-file outputs.</p>
-          </div>
-          <span class="badge">data/bengali</span>
-        </div>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>File</th>
-                <th>Size</th>
-                <th>SHA-256</th>
-                <th>Link</th>
-              </tr>
-            </thead>
-            <tbody id="bengali-body">
-              <tr><td colspan="4" class="meta">Loading Bengali package…</td></tr>
-            </tbody>
-          </table>
-        </div>
+      <section class="bengali">
+        <h2>Bengali legacy package</h2>
+        <p>
+          The existing Bengali package remains available with combined JSON,
+          CSV, per-source files, and word-by-word data.
+        </p>
+        <a class="button" href="data/bengali/manifest.json">Open Bengali manifest</a>
       </section>
     </main>
 
     <script>
-      const state = {
-        bundle: [],
-        bengali: [],
-        bundleMeta: null,
-        bengaliMeta: null,
-      };
-
-      const fmtSize = (n) => {
-        if (!Number.isFinite(n)) return "—";
-        const units = ["B", "KB", "MB", "GB"];
-        let value = n;
-        let unit = 0;
-        while (value >= 1024 && unit < units.length - 1) {
-          value /= 1024;
-          unit++;
-        }
-        return `${value.toFixed(value >= 10 || unit === 0 ? 0 : 1)} ${units[unit]}`;
-      };
+      const state = { index: null, rows: [] };
 
       const esc = (value) =>
-        String(value)
+        String(value ?? "")
           .replaceAll("&", "&amp;")
           .replaceAll("<", "&lt;")
           .replaceAll(">", "&gt;")
           .replaceAll('"', "&quot;");
 
-      const languageLabel = (item) => {
-        const source = item.source || {};
-        if (source.kind === "qul") {
-          return source.language || source.title || item.file;
-        }
-        if (source.kind === "quranenc") {
-          return source.language_name || source.title || source.key || item.file;
-        }
-        return source.language_name || source.language_code || source.title || source.key || item.file;
-      };
-
-      const renderBundle = () => {
-        const q = document.getElementById("filter").value.trim().toLowerCase();
-        const rows = state.bundle.filter((item) => {
+      function renderRows() {
+        const query = document.getElementById("search").value.trim().toLowerCase();
+        const quality = document.getElementById("quality").value;
+        const filtered = state.rows.filter((item) => {
           const hay = [
-            item.label,
+            item.language,
+            item.language_code,
+            item.translation_name,
+            item.original_script,
+            item.quality_status,
             item.file,
-            item.path,
-            String(item.wave),
-            item.script,
-            String(item.row_count),
-          ]
-            .join(" ")
-            .toLowerCase();
-          return hay.includes(q);
+          ].join(" ").toLowerCase();
+          return hay.includes(query) && (!quality || item.quality_status === quality);
         });
 
-        const body = document.getElementById("bundle-body");
-        document.getElementById("bundle-count").textContent = `${rows.length} files`;
-        document.getElementById("filter-summary").textContent =
-          q ? `Filtered to ${rows.length} of ${state.bundle.length}` : `Showing all ${state.bundle.length} files`;
+        document.getElementById("result-count").textContent = `${filtered.length} files`;
+        document.getElementById("rows").innerHTML = filtered.map((item) => `
+          <tr>
+            <td>
+              <strong>${esc(item.language)}</strong>
+              <div class="muted">${esc(item.language_code)}</div>
+            </td>
+            <td>
+              <strong>${esc(item.translation_name)}</strong>
+              <div class="muted">${esc(item.file)}</div>
+            </td>
+            <td>${esc(item.original_script)}</td>
+            <td><span class="status ${esc(item.quality_status)}">${esc(item.quality_status)}</span></td>
+            <td class="sample">${esc(item.sample || "No sample available")}</td>
+            <td><a class="json-link" href="${esc(item.path)}">JSON</a></td>
+          </tr>
+        `).join("");
+      }
 
-        body.innerHTML = rows
-          .map((item) => {
-            const rel = item.path;
-            return `
-              <tr>
-                <td>
-                  <strong>${esc(item.label)}</strong>
-                  <div class="meta">${esc(item.file)}</div>
-                </td>
-                <td>Wave ${esc(item.wave)}</td>
-                <td>${esc(item.script)}</td>
-                <td>${esc(item.row_count)}</td>
-                <td class="meta">${esc(rel)}</td>
-                <td>
-                  <a class="file-link" href="${esc(rel)}" target="_blank" rel="noreferrer">Open JSON</a>
-                </td>
-              </tr>
-            `;
-          })
-          .join("");
-      };
-
-      const renderBengali = () => {
-        const body = document.getElementById("bengali-body");
-        const files = state.bengaliMeta?.files || [];
-        body.innerHTML = files
-          .map((item) => `
-            <tr>
-              <td><strong>${esc(item.path)}</strong></td>
-              <td>${esc(fmtSize(item.size_bytes))}</td>
-              <td class="meta"><code>${esc(item.sha256)}</code></td>
-              <td><a class="file-link" href="${esc(item.path)}" target="_blank" rel="noreferrer">Open file</a></td>
-            </tr>
-          `)
-          .join("");
-      };
-
-      const renderPackages = () => {
-        const root = document.getElementById("packages");
-        const bengali = state.bengaliMeta;
-        const translit = state.bundleMeta;
-        root.innerHTML = `
-          <div class="package">
-            <h4>Bengali Package</h4>
-            <div class="small">
-              ${esc(bengali?.combined_translation_rows ?? "—")} verse rows and
-              ${esc(bengali?.word_by_word_entries ?? "—")} word-by-word entries.
-            </div>
-          </div>
-          <div class="package">
-            <h4>Transliteration Bundle</h4>
-            <div class="small">
-              ${esc(translit?.total_files ?? "—")} JSON files across
-              ${esc(Object.keys(translit?.wave_counts || {}).length)} waves.
-              Draft files with failed review were excluded.
-            </div>
-          </div>
-        `;
-      };
-
-      async function loadManifest(url) {
-        const res = await fetch(url, { cache: "no-store" });
-        if (!res.ok) throw new Error(`Failed to load ${url}`);
-        return res.json();
+      function renderLanguages() {
+        document.getElementById("languages").innerHTML = state.index.languages.map((item) => `
+          <a class="language-item" href="data/languages/${esc(item.language_slug)}/index.json">
+            <strong>${esc(item.language)}</strong>
+            <span>${esc(item.translation_count)} files</span>
+          </a>
+        `).join("");
       }
 
       async function init() {
-        const [root, bengali, translit] = await Promise.all([
-          loadManifest("manifest.json"),
-          loadManifest("data/bengali/manifest.json"),
-          loadManifest("data/transliterations/manifest.json"),
-        ]);
-
-        state.bundleMeta = translit;
-        state.bengaliMeta = bengali;
-        state.bundle = (translit.files || []).map((item) => ({
-          ...item,
-          label: languageLabel(item),
-        }));
-        state.bengali = bengali.files || [];
-
-        document.querySelector('[data-stat="files"]').textContent = String(state.bundle.length);
-        document.querySelector('[data-stat="wave1"]').textContent = String(translit.wave_counts?.[1] ?? translit.wave_counts?.["1"] ?? 0);
-        document.querySelector('[data-stat="wave2"]').textContent = String(translit.wave_counts?.[2] ?? translit.wave_counts?.["2"] ?? 0);
-        document.querySelector('[data-stat="wave3"]').textContent = String(translit.wave_counts?.[3] ?? translit.wave_counts?.["3"] ?? 0);
-
-        renderBundle();
-        renderBengali();
-        renderPackages();
-
-        document.getElementById("filter").addEventListener("input", renderBundle);
+        const res = await fetch("index.json", { cache: "no-store" });
+        state.index = await res.json();
+        state.rows = state.index.translations || [];
+        document.querySelector('[data-stat="languages"]').textContent = state.index.total_languages;
+        document.querySelector('[data-stat="translations"]').textContent = state.index.total_translations;
+        renderRows();
+        renderLanguages();
+        document.getElementById("search").addEventListener("input", renderRows);
+        document.getElementById("quality").addEventListener("change", renderRows);
       }
 
-      init().catch((err) => {
-        console.error(err);
-        document.getElementById("bundle-body").innerHTML =
-          '<tr><td colspan="6" class="meta">Could not load manifests. Open the JSON files directly from the repo.</td></tr>';
-        document.getElementById("bengali-body").innerHTML =
-          '<tr><td colspan="4" class="meta">Could not load Bengali manifest.</td></tr>';
+      init().catch(() => {
+        document.getElementById("rows").innerHTML =
+          '<tr><td colspan="6" class="muted">Could not load index.json. Open it directly from the repository.</td></tr>';
       });
     </script>
   </body>

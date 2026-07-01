@@ -1,0 +1,32 @@
+{
+  "language": "Japanese",
+  "language_code": "ja",
+  "language_slug": "japanese",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Japanese",
+      "language_code": "ja",
+      "language_slug": "japanese",
+      "translation_name": "Meta",
+      "file": "ja_meta.json",
+      "path": "data/languages/japanese/ja_meta.json",
+      "rows": 6236,
+      "original_script": "Japanese kana/kanji",
+      "quality_status": "needs-review",
+      "sample": "1.Ci Bei amanekuCi Ai Shen kiatsura-noYu Ming nioite."
+    },
+    {
+      "language": "Japanese",
+      "language_code": "ja",
+      "language_slug": "japanese",
+      "translation_name": "Sato",
+      "file": "ja_sato.json",
+      "path": "data/languages/japanese/ja_sato.json",
+      "rows": 6236,
+      "original_script": "Japanese kana/kanji",
+      "quality_status": "needs-review",
+      "sample": "Ci Bei amaneku*Ci Ai Shen ki*atsura-*noYu Ming nioite."
+    }
+  ]
+}

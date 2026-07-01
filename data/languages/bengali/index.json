@@ -1,0 +1,104 @@
+{
+  "language": "Bengali",
+  "language_code": "bn",
+  "language_slug": "bengali",
+  "translation_count": 8,
+  "translations": [
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Bayaan",
+      "file": "bn_bayaan.json",
+      "path": "data/languages/bengali/bn_bayaan.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "parama karuNAmaYa ati daYAlu AllAhara nAme|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Fozlur",
+      "file": "bn_fozlur.json",
+      "path": "data/languages/bengali/bn_fozlur.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "karuNAmaYa o parama daYAlu AllAhara nAme"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Ifaba",
+      "file": "bn_ifaba.json",
+      "path": "data/languages/bengali/bn_ifaba.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "zuru karachi AllAhara nAme yini parama karuNAmaYa, ati daYAlu|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Mkhan",
+      "file": "bn_mkhan.json",
+      "path": "data/languages/bengali/bn_mkhan.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "zuru karachi AllAhara nAme yini parama karuNAmaYa, ati daYAlu|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Mujibur",
+      "file": "bn_mujibur.json",
+      "path": "data/languages/bengali/bn_mujibur.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "parama karuNAmaYa, asIma daYAlu AllAhara nAme (zuru karachi)|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Sean",
+      "file": "bn_sean.json",
+      "path": "data/languages/bengali/bn_sean.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "parama karuNAmaYa, asIma daYAlu AllAhara nAme zuru karachi|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Taisirul",
+      "file": "bn_taisirul.json",
+      "path": "data/languages/bengali/bn_taisirul.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "(Arambha karachi) parama karuNAmaYa asIma daYAmaYa AllAhara nAme|"
+    },
+    {
+      "language": "Bengali",
+      "language_code": "bn",
+      "language_slug": "bengali",
+      "translation_name": "Taqi",
+      "file": "bn_taqi.json",
+      "path": "data/languages/bengali/bn_taqi.json",
+      "rows": 6236,
+      "original_script": "Bengali script",
+      "quality_status": "reviewed-draft",
+      "sample": "AllAhara nAme zuru, yini sakalera prati daYAvAna, parama daYAlu|"
+    }
+  ]
+}

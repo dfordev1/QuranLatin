@@ -1,0 +1,32 @@
+{
+  "language": "Amharic",
+  "language_code": "am",
+  "language_slug": "amharic",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Amharic",
+      "language_code": "am",
+      "language_slug": "amharic",
+      "translation_name": "Mokhtasar",
+      "file": "am_mokhtasar.json",
+      "path": "data/languages/amharic/am_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Ethiopic script",
+      "quality_status": "needs-review",
+      "sample": "ba'alaahe bamataagazenaa semune bamaawesaate rade'eetene bamafalage ba'alaahe seme qure'aanene maanebabe 'ejameraalahu. <<basemalaa>> (bisemilaahi 'are-raahhemaani 'are-rahhime) yamilawe hharage ka'alaahe webe semoce mak"
+    },
+    {
+      "language": "Amharic",
+      "language_code": "am",
+      "language_slug": "amharic",
+      "translation_name": "Sadiq",
+      "file": "am_sadiq.json",
+      "path": "data/languages/amharic/am_sadiq.json",
+      "rows": 6236,
+      "original_script": "Ethiopic script",
+      "quality_status": "needs-review",
+      "sample": "ba'alaahe seme 'ejege bathaame ruxeruhe bathaame 'azaanye bakxonawe"
+    }
+  ]
+}

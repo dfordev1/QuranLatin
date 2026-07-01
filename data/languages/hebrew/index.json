@@ -1,0 +1,20 @@
+{
+  "language": "Hebrew",
+  "language_code": "he",
+  "language_slug": "hebrew",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Hebrew",
+      "language_code": "he",
+      "language_slug": "hebrew",
+      "translation_name": "Darussalam",
+      "file": "he_darussalam.json",
+      "path": "data/languages/hebrew/he_darussalam.json",
+      "rows": 6236,
+      "original_script": "Hebrew script",
+      "quality_status": "draft",
+      "sample": "bSHm Allh hrHmn hrHvm,"
+    }
+  ]
+}

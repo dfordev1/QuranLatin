@@ -1,0 +1,32 @@
+{
+  "language": "Telugu",
+  "language_code": "te",
+  "language_slug": "telugu",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Telugu",
+      "language_code": "te",
+      "language_slug": "telugu",
+      "translation_name": "Bayan",
+      "file": "te_bayan.json",
+      "path": "data/languages/telugu/te_bayan.json",
+      "rows": 6236,
+      "original_script": "Telugu script",
+      "quality_status": "reviewed-draft",
+      "sample": "apAra karuNAmayuDu, parama kRpAzIluDaina allAh perutò"
+    },
+    {
+      "language": "Telugu",
+      "language_code": "te",
+      "language_slug": "telugu",
+      "translation_name": "Divya",
+      "file": "te_divya.json",
+      "path": "data/languages/telugu/te_divya.json",
+      "rows": 6236,
+      "original_script": "Telugu script",
+      "quality_status": "reviewed-draft",
+      "sample": "anaMta karuNAmayuDu apAra karuNA pradAta ayina allAh peruto"
+    }
+  ]
+}

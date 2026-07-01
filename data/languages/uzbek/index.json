@@ -1,0 +1,56 @@
+{
+  "language": "Uzbek",
+  "language_code": "uz",
+  "language_slug": "uzbek",
+  "translation_count": 4,
+  "translations": [
+    {
+      "language": "Uzbek",
+      "language_code": "uz",
+      "language_slug": "uzbek",
+      "translation_name": "Mansour",
+      "file": "uz_mansour.json",
+      "path": "data/languages/uzbek/uz_mansour.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Mekh'ribon va rakh'mli Allokh' nomi bilan (boshlaiman)."
+    },
+    {
+      "language": "Uzbek",
+      "language_code": "uz",
+      "language_slug": "uzbek",
+      "translation_name": "Mokhtasar",
+      "file": "uz_mokhtasar.json",
+      "path": "data/languages/uzbek/uz_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "K'ur'on uk'ishni Allokh'ning nomi bilan, U Zotdan madad surab, U Zotning tabarruk nomini tilga olib boshlaiman. Bismillakh' Allokh'ning guzal nomlaridan uchtasini uz ichiga oladi. Ular: 1 - Allokh'. Ia'ni, kh'ak'ik'ii ma"
+    },
+    {
+      "language": "Uzbek",
+      "language_code": "uz",
+      "language_slug": "uzbek",
+      "translation_name": "Rwwad",
+      "file": "uz_rwwad.json",
+      "path": "data/languages/uzbek/uz_rwwad.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Mekh'ribon va Rakh'mli Allokh' nomi bilan (boshlaiman)."
+    },
+    {
+      "language": "Uzbek",
+      "language_code": "uz",
+      "language_slug": "uzbek",
+      "translation_name": "Yusuf",
+      "file": "uz_yusuf.json",
+      "path": "data/languages/uzbek/uz_yusuf.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Mekh'ribon va rakh'mli Allokh'ning nomi bilan boshlaiman. (Allokh' taolo uz kitobini \"bismillakh'\" bilan boshlagani musulmonlarga kh'am urnak, ular kh'am doim uz suzlarini va ishlarini \"bismillakh'\" bilan boshlamok'lari "
+    }
+  ]
+}

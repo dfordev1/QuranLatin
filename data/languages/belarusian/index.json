@@ -1,0 +1,20 @@
+{
+  "language": "Belarusian",
+  "language_code": "be",
+  "language_slug": "belarusian",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Belarusian",
+      "language_code": "be",
+      "language_slug": "belarusian",
+      "translation_name": "Belarusian - Беларуская",
+      "file": "belarusian_krivtsov.json",
+      "path": "data/languages/belarusian/belarusian_krivtsov.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Imem Allaga Litastsivaga, Milasernaga!"
+    }
+  ]
+}

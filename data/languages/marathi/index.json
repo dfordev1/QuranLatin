@@ -1,0 +1,32 @@
+{
+  "language": "Marathi",
+  "language_code": "marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
+  "language_slug": "marathi",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Marathi",
+      "language_code": "mr",
+      "language_slug": "marathi",
+      "translation_name": "Marathi - मराठी",
+      "file": "marathi_ansari.json",
+      "path": "data/languages/marathi/marathi_ansari.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "1. allAhacyA nAvAne AraMbha karato, jo moThA kRpAvAna ANi atizaya dayA karaNArA Ahe."
+    },
+    {
+      "language": "Marathi",
+      "language_code": "marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
+      "language_slug": "marathi",
+      "translation_name": "Muhammad Shafi’i Ansari",
+      "file": "marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
+      "path": "data/languages/marathi/marathi-aeba9c5df8546756ec3c7599c285b1b9.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "allAhacyA nAvAne AraMbha karato, jo moThA kRpAvAna ANi atizaya dayA karaNArA Ahe."
+    }
+  ]
+}

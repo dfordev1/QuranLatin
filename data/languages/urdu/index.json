@@ -1,0 +1,44 @@
+{
+  "language": "Urdu",
+  "language_code": "ur",
+  "language_slug": "urdu",
+  "translation_count": 3,
+  "translations": [
+    {
+      "language": "Urdu",
+      "language_code": "ur",
+      "language_slug": "urdu",
+      "translation_name": "Junagarhi",
+      "file": "ur_junagarhi.json",
+      "path": "data/languages/urdu/ur_junagarhi.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "shrw` khrt hwN llh t`ly khy nm sy jw brr mhrbn nhyt rHm w hy.[1]"
+    },
+    {
+      "language": "Urdu",
+      "language_code": "ur",
+      "language_slug": "urdu",
+      "translation_name": "Mokhtasar",
+      "file": "ur_mokhtasar.json",
+      "path": "data/languages/urdu/ur_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "1- myN qrn mjyd prrhny kh Gz llh t`ly khy nm khy sth, sy sy mdd lyty hwy'y wr s khy nm sy tbrkh HSl khrty hwy'y khrt hwN. bsm llh tyn smy'y Hsny pr mshtml hy: (1) llWhi y`ny m`bwd brHq wr yhy llh t`ly khy nmwN myN sb sy "
+    },
+    {
+      "language": "Urdu",
+      "language_code": "ur",
+      "language_slug": "urdu",
+      "translation_name": "Taqi",
+      "file": "ur_taqi.json",
+      "path": "data/languages/urdu/ur_taqi.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "shrw` llh khy nm sy jw sb pr mhrbn hy, bht mhrbn hy [1]"
+    }
+  ]
+}

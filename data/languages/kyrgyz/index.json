@@ -1,0 +1,32 @@
+{
+  "language": "Kyrgyz",
+  "language_code": "ky",
+  "language_slug": "kyrgyz",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Kyrgyz",
+      "language_code": "ky",
+      "language_slug": "kyrgyz",
+      "translation_name": "Abdalkhaleq",
+      "file": "ky_abdalkhaleq.json",
+      "path": "data/languages/kyrgyz/ky_abdalkhaleq.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Yraiymduu, Meerimduu Allakhtyn aty menen (bashtaimyn). [1]"
+    },
+    {
+      "language": "Kyrgyz",
+      "language_code": "ky",
+      "language_slug": "kyrgyz",
+      "translation_name": "Mokhtasar",
+      "file": "ky_mokhtasar.json",
+      "path": "data/languages/kyrgyz/ky_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "Allakh Taaladan zhardam surap, Any atyn aituu menen bereke tilep, Kuran okuunu Anyn aty menen bashtaimyn. <<Bismillakh...>> sozu Allakhtyn uch korkom ysymyn ozuno kamtygan: birinchisi, <<Allakh>> - syiynuuga chynygy taty"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "language": "Hindi",
+  "language_code": "hi",
+  "language_slug": "hindi",
+  "translation_count": 4,
+  "translations": [
+    {
+      "language": "Hindi",
+      "language_code": "hi",
+      "language_slug": "hindi",
+      "translation_name": "Farooq",
+      "file": "hi_farooq.json",
+      "path": "data/languages/hindi/hi_farooq.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "allAha ke nAma se jo bar3A kRpAlu aura atyanta dayAvAna haiM|"
+    },
+    {
+      "language": "Hindi",
+      "language_code": "hi",
+      "language_slug": "hindi",
+      "translation_name": "Mokhtasar",
+      "file": "hi_mokhtasar.json",
+      "path": "data/languages/hindi/hi_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "maiM allAha kA nAma lekara, usa sarvazaktimAna kI sahAyatA lete hue, usake nAma ke ullekha se barakata lete hue quraAna par3hanA zurU karatA hU~| 'bismillAhira rahamAnira rahIma' meM allAha ke tIna suMdara nAma maujUda h"
+    },
+    {
+      "language": "Hindi",
+      "language_code": "hi",
+      "language_slug": "hindi",
+      "translation_name": "Nadwi",
+      "file": "hi_nadwi.json",
+      "path": "data/languages/hindi/hi_nadwi.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "allAha ke nAma se jo rahamAna va rahIma hai|"
+    },
+    {
+      "language": "Hindi",
+      "language_code": "hi",
+      "language_slug": "hindi",
+      "translation_name": "Omari",
+      "file": "hi_omari.json",
+      "path": "data/languages/hindi/hi_omari.json",
+      "rows": 6236,
+      "original_script": "Devanagari script",
+      "quality_status": "reviewed-draft",
+      "sample": "allAha ke nAma se, jo atyanta kRpAzIla tathA dayAvAn hai|"
+    }
+  ]
+}

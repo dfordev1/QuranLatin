@@ -1,0 +1,32 @@
+{
+  "language": "Thai",
+  "language_code": "th",
+  "language_slug": "thai",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Thai",
+      "language_code": "th",
+      "language_slug": "thai",
+      "translation_name": "Fahad",
+      "file": "th_fahad.json",
+      "path": "data/languages/thai/th_fahad.json",
+      "rows": 6236,
+      "original_script": "Thai script",
+      "quality_status": "needs-review",
+      "sample": "dwyphranaamkh`ng`all`h' phuuthrngkrunaapraanii phuuthrngemttaaesm`"
+    },
+    {
+      "language": "Thai",
+      "language_code": "th",
+      "language_slug": "thai",
+      "translation_name": "Mokhtasar",
+      "file": "th_mokhtasar.json",
+      "path": "data/languages/thai/th_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Thai script",
+      "quality_status": "needs-review",
+      "sample": "chanerimtnkaar`aan`alkur`aandwyphranaamkh`ng`all`h' kh`khwaam`nuekhraaahcchaakphra`ngkh kh`khwaamsirimngkhldwykaarklaawphranaamkh`ngphra`ngkh chuengkhamklaawbismillaah'niiaidrwmphranaamkh`ngphra`ngkhaiwdwykansaamphranaam"
+    }
+  ]
+}

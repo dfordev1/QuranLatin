@@ -1,0 +1,44 @@
+{
+  "language": "Persian",
+  "language_code": "fa",
+  "language_slug": "persian",
+  "translation_count": 3,
+  "translations": [
+    {
+      "language": "Persian",
+      "language_code": "fa",
+      "language_slug": "persian",
+      "translation_name": "Husseintaji",
+      "file": "fa_husseintaji.json",
+      "path": "data/languages/persian/fa_husseintaji.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "bh nm khdwnd bkhshndhy mhrbn"
+    },
+    {
+      "language": "Persian",
+      "language_code": "fa",
+      "language_slug": "persian",
+      "translation_name": "Islamhouse",
+      "file": "fa_islamhouse.json",
+      "path": "data/languages/persian/fa_islamhouse.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "bh nm llh bkhshndhy mhrbn"
+    },
+    {
+      "language": "Persian",
+      "language_code": "fa",
+      "language_slug": "persian",
+      "translation_name": "Mokhtasar",
+      "file": "fa_mokhtasar.json",
+      "path": "data/languages/persian/fa_mokhtasar.json",
+      "rows": 6236,
+      "original_script": "Arabic script",
+      "quality_status": "needs-review",
+      "sample": "b st`nt z llh mt`l w bry brkht jstn z nm wy qry't r b nm w t`ly aGz my khnm. bsm llh lrHmn lrHym, sh mwrd z sm nykhwy llh r drbrdrd: 1 <<llh>>; y`ny: m`bwd brHq. llh, brtryn sm w t`ly st w Gyr dht pkhsh, hych khs dygry b"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "language": "Georgian",
+  "language_code": "georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
+  "language_slug": "georgian",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Georgian",
+      "language_code": "ka",
+      "language_slug": "georgian",
+      "translation_name": "Georgian - ქართული",
+      "file": "georgian_rwwad.json",
+      "path": "data/languages/georgian/georgian_rwwad.json",
+      "rows": 6236,
+      "original_script": "Georgian script",
+      "quality_status": "draft",
+      "sample": "saxelit`a allahisa, mocqalisa, mcqalobelisa."
+    },
+    {
+      "language": "Georgian",
+      "language_code": "georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
+      "language_slug": "georgian",
+      "translation_name": "Georgian Translation",
+      "file": "georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
+      "path": "data/languages/georgian/georgian-472bf122b5fc3e180ed13bfc2b381a72.json",
+      "rows": 899,
+      "original_script": "Georgian script",
+      "quality_status": "draft",
+      "sample": "saxelit`a allahisa, mocqalisa, mcqalobelisa."
+    }
+  ]
+}

@@ -1,90 +1,11 @@
 {
   "repository": "dfordev1/QuranLatin",
-  "generated_at": "2026-07-01T03:50:33+00:00",
-  "packages": [
-    {
-      "name": "bengali-v1",
-      "title": "Bengali Latin transliteration package",
-      "path": "data/bengali",
-      "manifest": "data/bengali/manifest.json",
-      "combined_translation_rows": 31180,
-      "word_by_word_entries": 83664,
-      "verse_translation_sources": [
-        "rawai_al_bayan",
-        "sheikh_mujibur_rahman",
-        "taisirul_quran",
-        "dr_abu_bakr_muhammad_zakaria",
-        "fathul_majid"
-      ]
-    },
-    {
-      "name": "transliterations",
-      "title": "Multi-language Latin transliteration bundle",
-      "path": "data/transliterations",
-      "manifest": "data/transliterations/manifest.json",
-      "total_files": 89,
-      "wave_counts": {
-        "1": 62,
-        "2": 21,
-        "3": 6
-      },
-      "script_counts": {
-        "bengali": 9,
-        "cyrillic": 21,
-        "devanagari": 8,
-        "ethiopic": 2,
-        "georgian": 2,
-        "greek": 2,
-        "gujarati": 1,
-        "gurmukhi": 1,
-        "hangul": 1,
-        "hebrew": 1,
-        "kannada": 2,
-        "malayalam": 2,
-        "sinhala": 2,
-        "tamil": 4,
-        "telugu": 2,
-        "thai": 2,
-        "arabic": 21,
-        "han": 1,
-        "hiragana": 2,
-        "khmer": 1,
-        "thaana": 2
-      },
-      "excluded_files": [
-        {
-          "file": "circassian_rwwad.json",
-          "wave": null,
-          "script": "cyrillic",
-          "reason": "failed review"
-        },
-        {
-          "file": "nqo_Karamomamadi.json",
-          "wave": null,
-          "script": "nko",
-          "reason": "failed review"
-        },
-        {
-          "file": "bambara-1ad85b2f2de8c6f1e75b838826fcfb5d.json",
-          "wave": null,
-          "script": "nko",
-          "reason": "failed review"
-        },
-        {
-          "file": "ingush-a6b99ddb378bf1b7540473d1d0d87b08.json",
-          "wave": null,
-          "script": "empty",
-          "reason": "failed review"
-        }
-      ]
-    }
-  ],
-  "credits": [
-    "QUL",
-    "QuranENC"
-  ],
-  "notes": [
-    "All JSON datasets in this repository are free of web links and URL fields.",
-    "The transliteration bundle was reviewed and cleaned before publishing."
-  ]
+  "public_index": "index.json",
+  "data_root": "data/languages",
+  "total_languages": 44,
+  "total_translations": 89,
+  "internal": {
+    "processing_manifest": "data/internal/processing-manifest.json",
+    "excluded_files": "data/internal/excluded-files.json"
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "language": "Macedonian",
+  "language_code": "mk",
+  "language_slug": "macedonian",
+  "translation_count": 1,
+  "translations": [
+    {
+      "language": "Macedonian",
+      "language_code": "mk",
+      "language_slug": "macedonian",
+      "translation_name": "Macedonianscholars",
+      "file": "mk_Macedonianscholars.json",
+      "path": "data/languages/macedonian/mk_Macedonianscholars.json",
+      "rows": 6236,
+      "original_script": "Cyrillic script",
+      "quality_status": "draft",
+      "sample": "o imeto na Allakh, Semilosniot, Milostiviot![1]"
+    }
+  ]
+}

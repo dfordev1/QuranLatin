@@ -1,0 +1,32 @@
+{
+  "language": "Kannada",
+  "language_code": "kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
+  "language_slug": "kannada",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Kannada",
+      "language_code": "kn",
+      "language_slug": "kannada",
+      "translation_name": "Kannada - ಕನ್ನಡ",
+      "file": "kannada_hamza.json",
+      "path": "data/languages/kannada/kannada_hamza.json",
+      "rows": 6236,
+      "original_script": "Kannada script",
+      "quality_status": "reviewed-draft",
+      "sample": "parama dayAmayanU karuNAnidhiyU Ada allAhana nAmadiMda.[1]"
+    },
+    {
+      "language": "Kannada",
+      "language_code": "kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
+      "language_slug": "kannada",
+      "translation_name": "Kannada Translation",
+      "file": "kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
+      "path": "data/languages/kannada/kannada-9f4798e061a3e97f6b3f59bbe28862e5.json",
+      "rows": 6236,
+      "original_script": "Kannada script",
+      "quality_status": "reviewed-draft",
+      "sample": "parama dayAmayanU kRpAnidhiyU Ada allAhana nAmadòMdigè,"
+    }
+  ]
+}

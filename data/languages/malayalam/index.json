@@ -1,0 +1,32 @@
+{
+  "language": "Malayalam",
+  "language_code": "ml",
+  "language_slug": "malayalam",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Malayalam",
+      "language_code": "ml",
+      "language_slug": "malayalam",
+      "translation_name": "Abdulhameed",
+      "file": "ml_abdulhameed.json",
+      "path": "data/languages/malayalam/ml_abdulhameed.json",
+      "rows": 6236,
+      "original_script": "Malayalam script",
+      "quality_status": "reviewed-draft",
+      "sample": "paramakAruNikanuM karuNAnidhiyumAya allAhuvinr2è tirunAmattil‍"
+    },
+    {
+      "language": "Malayalam",
+      "language_code": "ml",
+      "language_slug": "malayalam",
+      "translation_name": "Karakunnu",
+      "file": "ml_karakunnu.json",
+      "path": "data/languages/malayalam/ml_karakunnu.json",
+      "rows": 6236,
+      "original_script": "Malayalam script",
+      "quality_status": "reviewed-draft",
+      "sample": "paramakAruNikanuM dayAparanumAya allAhuvinr2è nAmattil‍."
+    }
+  ]
+}

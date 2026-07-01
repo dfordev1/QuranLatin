@@ -1,0 +1,32 @@
+{
+  "language": "Dhivehi",
+  "language_code": "dv",
+  "language_slug": "dhivehi",
+  "translation_count": 2,
+  "translations": [
+    {
+      "language": "Dhivehi",
+      "language_code": "dv",
+      "language_slug": "dhivehi",
+      "translation_name": "Bakurube",
+      "file": "dv_bakurube.json",
+      "path": "data/languages/dhivehi/dv_bakurube.json",
+      "rows": 6236,
+      "original_script": "Thaana script",
+      "quality_status": "needs-review",
+      "sample": "furathama 'a`uwdhu gemaana: heyokamaadhuruvegenvaa 'adhi la`na@ le'vi fa'sa'ilevigenvaa shyTn 'aage faraathun salaamathve ra'kaatherivumash ge HDr@ n mi'aLaa Hmy@ 'aa'i ra'kaatherikan libigannameve.\n------------- ge nanf"
+    },
+    {
+      "language": "Dhivehi",
+      "language_code": "dv",
+      "language_slug": "dhivehi",
+      "translation_name": "Maldives",
+      "file": "dv_maldives.json",
+      "path": "data/languages/dhivehi/dv_maldives.json",
+      "rows": 6236,
+      "original_script": "Thaana script",
+      "quality_status": "needs-review",
+      "sample": "rHmn vantha rHym vantha llWah ge sm fuLun fasha'igannameve."
+    }
+  ]
+}
